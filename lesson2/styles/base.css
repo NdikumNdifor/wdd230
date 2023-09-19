@@ -1,0 +1,77 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Playfair Display', serif;
+    background-color: #FBFBFF;
+}
+
+/* Centers elements on the body width margin*/
+header, main, footer  {
+    max-width: 820px;
+    margin: 0 auto;
+}  
+
+header  {
+    text-align: center;
+    background-color: #6B0504;
+    padding: 0.6rem;
+    color: azure;
+}
+
+img {
+    max-width: 100%;
+}
+
+main {
+    display: grid;
+}
+
+header h2 {
+    margin-top: -15px;
+    font-size: 1.6rem;
+
+}
+
+.card h2 {
+    background-color: #000011;
+    border-radius: 20px 20px 0 0;
+    margin-top: -1px;
+    padding: 1rem 0.5rem;
+    font-size: 1.2rem;
+    color: white;
+ }
+
+ .card {
+    margin-top: 25px;
+    border:1px solid black;
+    border-radius: 20px 20px 0 0;
+ }
+
+ .card img {
+    margin-top: 25px;
+ }
+
+ section p {
+    padding: 0 0.6rem;
+   /* font-weight: 400;*/
+ }
+
+ section a {
+    padding:0 0.6rem ;
+   /* font-weight: 400;*/
+ }
+
+.card p span {
+    font-size: 1.3rem;
+}
+
+footer {
+    background-color: #153243;
+    padding: 2rem 1rem;
+    margin-top: 25px;
+    color: white;
+    text-align: center;
+}
+
+
+ 
