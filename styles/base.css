@@ -1,6 +1,5 @@
 body {
-    margin: auto 20%;
-    background-color: bisque;
+    background-color: bisque;  
 }
 
 main {
@@ -19,11 +18,13 @@ header h1 {
     align-self: center;
     font-family: Oswald, sans-serif;
     color: white;
+    margin-left: 0.8rem;
 }
 
 nav {
     background-color:#FFFFFF;
     padding: 1rem 0 1rem 0;
+    display: block;
 }
 
 nav ul {
@@ -34,12 +35,21 @@ nav ul {
     margin-left: -30px;
 }
 
+
 nav ul li a {
     text-decoration: none;
     color: black;
     line-height: 2.5rem;
     font-size: 1.4rem;
     font-family: Oswald, sans-serif;
+
+}
+
+nav ul li a:hover {
+    background-color: black;
+    border-radius: 10px;
+    padding: 0.1rem 0.9rem;
+    color: #FFFFFF;
 
 }
 
@@ -62,7 +72,7 @@ main h2 {
 .card ul li {
     line-height: 2rem;
     list-style-type: none;
-    font-size: 1.3rem;
+    font-size: 1rem;
     margin-left: -0.6rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -72,7 +82,7 @@ main h2 {
 }
 
 footer {
-    padding: 3rem 0;
+    padding: 1rem 0.5rem;
     background-color: #343531;
     margin-top: 20px;
 }
@@ -101,9 +111,11 @@ section {
 
 img {
     border-radius: 15px;
+    max-width: 100%;
 }
 footer img {
-    margin-left:40%;
+    display: none;
+
 }
 
 
