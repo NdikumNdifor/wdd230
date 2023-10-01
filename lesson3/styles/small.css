@@ -1,0 +1,31 @@
+body {
+    background-color: #FFFFFF;
+    padding: 0.5rem;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul, ol, p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #3C4142;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+div {
+    padding-bottom: 2rem;
+}
