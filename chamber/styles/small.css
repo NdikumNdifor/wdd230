@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #FFF;
+    display: flex;
+    background-color: #153243;
+    justify-content: space-between;
+    padding: 1rem 0.6rem;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+#name {
+    font-size: 0.7rem;
+    line-height: 0.8rem;
+    width: 60%;
+}
+
+main {
+    text-align: center;
+}
+
+.event {
+    border: 1.5px solid  #153243;
+    padding: 0.5rem 0.3rem;
+}
+
+
+.event section{
+    border: 1px solid gray;
+    margin-bottom: 0.3rem;
+}
+
+ .weather {
+    padding: 2rem 0;
+} 
+
+.advert {
+    margin-top: 1rem;
+    border: 1.5px solid  #153243;
+    padding:  0.3rem ;
+}
+
+.advert section {
+    border: 1px solid  gray;
+    margin: 0.3rem 0; 
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 4rem;
+    color: #FFF;
+    background-color: #3C4142;
+    column-gap: 10px;
+    margin-top: 1rem;
+}
+
+/* Navigation*/
+
+#menu {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 0 7px;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+.navigation li {
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.navigation li a {
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+}
+
+#menu.open::before {
+    content: "X";
+}
+
+.open li {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.7);
+    line-height: 2.5rem;
+    text-align: center;
+}
+
+.open nav ul {
+    max-height: 100%;
+}
+
+.open a {
+    display: block;
+}
+    
+.navigation1 {
+    display: none;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+nav
+
+.navigation1 a {
+    text-decoration: none;
+    color: #FFF;
+}
+

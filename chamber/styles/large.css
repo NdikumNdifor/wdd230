@@ -1,0 +1,20 @@
+
+@media screen and (min-width: 769px){
+  
+     main div.advert {
+         grid-template-columns: 1fr 1fr 1fr;
+         grid-template-rows: 1fr;
+         column-gap: 0.5rem; 
+    }
+    .container #name {
+        font-size: 1rem;
+    }
+    .advert #third {
+        grid-column: 3/4;
+    }
+
+   header #name {
+        line-height: 1.1rem;
+    }
+} 
+
