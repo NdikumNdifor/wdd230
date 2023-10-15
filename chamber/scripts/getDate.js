@@ -12,3 +12,18 @@ hamBtn.addEventListener("click", () => {
     hamBtn.classList.toggle("open");
     mainNav.classList.toggle("open");
 })
+
+const changeTextAndBackground = document.querySelector(".switch");
+const main = document.querySelector("main");
+
+changeTextAndBackground.addEventListener("click", () => { 
+    if (main.style.backgroundColor!= "#DDDDDD"){
+        main.style.backgroundColor = "#000000";
+        main.style.color = "#FFFFFF"; 
+    }else{
+        main.style.backgroundColor = "#FFFFFF";
+        main.style.color = "#0000000";
+    }
+});
+
+

@@ -3,6 +3,10 @@
         display: none;
     }
 
+    body header {
+        padding: 1.3rem 0.6rem;
+    }
+
     header .navigation1 {
         display: flex;
         align-items: center;
