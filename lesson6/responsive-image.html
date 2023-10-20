@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images and WebP Format</title>
+    <link rel="stylesheet" href="./styles/responsive-images.css">
+</head>
+<body>
+    <!-- Emmet Shorthand (enter syntax + tab): -->
+    <!-- main>div.hero>picture>source:media*2+img -->
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 500px)" srcset="../lesson3/images/hero-small.webp">
+                <source media="(max-width: 1000px)" srcset="../lesson3/images/hero-medium.webp">
+                <img src="../lesson3/images/hero-large.webp" alt="mormon-temple" width="1280" height="640">
+            </picture>
+        </div>
+    </main>
+</body>
+</html>
