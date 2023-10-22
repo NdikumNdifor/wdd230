@@ -30,4 +30,9 @@
     #third {
         grid-column: 1/-1; 
     }
+
+    /* Ajustment for the toggle switch */
+    label.switch {
+        right: 1.1rem;
+    }
 }

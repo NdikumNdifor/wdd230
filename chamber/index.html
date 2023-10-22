@@ -62,9 +62,14 @@
     </nav>
     <main >
         <div class="hero-image">
-            <img src="#" alt="hero-image">
-            <a href="#">Join the Chamber</a>
-        </div>
+            <picture>
+                
+                <source media="(max-width:400px)" srcset="../chamber/images/ch-hero-small.webp">
+                <source media="(max-width: 960px)" srcset="../chamber/images/ch-hero-medium.webp">
+                <img src="../chamber/images/hero-large-ch.webp" alt="three people conversing" width="1500" height="750">
+            </picture>
+            <a href="#" class="cta">Join the Chamber</a>
+        </div> 
         <div class="event">
             <section class="weather" >
                 <h2>Events</h2>
@@ -76,6 +81,8 @@
                 <div>
                     <p>weather Here</p>
                 </div>
+                <button>Click for windchill temperature</button>
+                <div class="windchill-value"></div>
             </section>
         </div>
 
@@ -102,6 +109,7 @@
     <footer>
         <p>&copy;2023 | Ndikum .S Ndifor | WDD 230-project | <span id="lastModified"></span></p>
         <script src="../chamber/scripts/getDate.js"></script>
+        <script src="../chamber/scripts/windchill.js"></script>
     </footer>  
 </body>
 </html>

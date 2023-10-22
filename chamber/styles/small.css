@@ -66,6 +66,31 @@ footer {
     margin-top: 1rem;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styling the "Join the chamber call to action(cta) button */
+.hero-image {
+    position: relative;
+}
+
+.hero-image .cta {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    text-decoration: none;
+    background-color:#FF9900 ;
+    padding: 1rem;
+    color: #000;
+    font-size: 1.3rem;
+    border-radius: 45px;
+}
+
+
+
+
 /* Navigation*/
 
 #menu {
@@ -193,6 +218,13 @@ input:checked + .slider:before {
 
 .slider.round:before {
     border-radius: 50%;
+}
+
+.windchill-value, button {
+    padding: 0.5rem;
+}
+.windchill-value {
+    font-size: 2rem;
 }
 
 
