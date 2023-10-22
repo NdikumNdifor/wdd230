@@ -1,10 +1,16 @@
+
 body {
-    background-color: bisque;  
+    background-color: bisque;
+    padding: 0;
+    /* centers the content of the body on the page */
+    margin: 0 auto;
+    /* max-width: 960px; */
+    /* sets the width of the "body" to a defined fix width */
+    max-width: 1000px;
 }
 
 main {
     display: grid;
-    margin: 0 2.5%;
 }
 
 header {
@@ -30,6 +36,25 @@ nav ul li a:hover {
     background-color: black;
     border-radius: 10px;
     color: #FFFFFF;
+}
+/* Hero image */
+ .hero {
+    display: block;
+    justify-self: center;
+    position: relative;
+} 
+
+.label {
+   position: absolute; 
+   top: 40px;
+   left: 25px;
+   border: 1px solid rgba(0, 0, 0, 0.1);
+   padding:1rem 1rem;
+   background-color: #fff;
+   opacity: 0.9;
+   /* backdrop-filter: blur(50px); */
+   font-family: cursive; 
+   color: #000;
 }
 
 main h2 {
@@ -92,10 +117,18 @@ section {
     background-color: #FFFFFF;
 }
 
-img {
+header img {
     border-radius: 15px;
+}
+
+img {
     max-width: 100%;
 }
+
+ .hero img {
+    height: auto;  
+}
+
 footer img {
     display: none;
 }
@@ -115,9 +148,6 @@ nav ul.navigation {
     font-family: Oswald, sans-serif;
     padding-right:1.5rem;
     text-decoration: none;
-    /* position: absolute;
-    top: 0;
-    right: 1rem;       */
  }
 
 #hamburgerBtn::before {

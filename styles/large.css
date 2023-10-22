@@ -1,13 +1,23 @@
 /* media for large viewport */
 @media screen and (min-width: 481px) {
-
-    body {
-        margin: auto 5%;    
-    }
-    
+  
     main {
         grid-template-columns: auto auto;
         column-gap: 0.5rem;
+        /* below defines the width of the "main" to fix width of 960px */
+        max-width: 960px;
+        /* The below line of code centers the main on the page */   
+        margin: 0 auto;
+    }
+
+    .hero {
+        grid-column: 1/3;
+    }
+
+    .label {
+        top: 50px;
+        left: 50px;
+        padding: 2rem 1rem;
     }
 
     main h2 {
@@ -15,7 +25,7 @@
     }
 
     footer img {
-        display: block;
+        display: none;
         margin:1rem auto ;
     }
 
@@ -26,11 +36,11 @@
   .navigation  {
         display:flex ;
         justify-content: space-around;
-        margin: auto 5rem;
    } 
    
    .navigation li {
         display: block;
         text-align: center;
-   } 
+   }
+   
 }
