@@ -6,15 +6,17 @@
          grid-template-rows: 1fr;
          column-gap: 0.5rem; 
     }
+    
     .container #name {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .advert #third {
         grid-column: 3/4;
     }
 
-   header #name {
-        line-height: 1.1rem;
+   header #name h1{
+        line-height: 1rem;
+        font-size: 1.3rem;
     }
 } 
 

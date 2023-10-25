@@ -7,6 +7,10 @@
         padding: 1.3rem 0.6rem;
     }
 
+     /* #name h1 {
+        font-size: 1rem;
+    } */
+
     header .navigation1 {
         display: flex;
         align-items: center;
@@ -34,5 +38,6 @@
     /* Ajustment for the toggle switch */
     label.switch {
         right: 1.1rem;
+        top: 17px;
     }
 }

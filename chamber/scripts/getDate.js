@@ -13,17 +13,14 @@ hamBtn.addEventListener("click", () => {
     mainNav.classList.toggle("open");
 })
 
-const changeTextAndBackground = document.querySelector(".switch");
-const main = document.querySelector("main");
 
-changeTextAndBackground.addEventListener("click", () => { 
-    if (main.style.backgroundColor!= "#DDDDDD"){
-        main.style.backgroundColor = "#000000";
-        main.style.color = "#FFFFFF"; 
-    }else{
-        main.style.backgroundColor = "#FFFFFF";
-        main.style.color = "#0000000";
-    }
+// script for the toggle switch
+const changeTextAndBackground = document.querySelector("#checked");
+const main = document.querySelector("main");
+    
+changeTextAndBackground.addEventListener("change", () => { 
+    main.style.backgroundColor = changeTextAndBackground.checked === true? "#000": "#FFF"
+    main.style.color = changeTextAndBackground.checked === true? "#FFF": "#000"  
 });
 
 

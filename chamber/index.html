@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[Ndikum Sabastine]- WDD 230 - Web Frontend Developement</title>
+    <title>[Ndikum Sabastine]- Yaounde Grow Together Chamber of Commerce</title>
     <meta name="description" content="Learning WDD 230 - Web Frontend Developement with Ndikum Sabastine on my course assignment portal" />
-    <meta name="author" content="Ndikum Sabastine" />
+    <meta name="author" content="Ndikum Sabastine"/>
 
     <!--Below are the Open Graph meta properties to enhance  facebook social media optimization (Social media SEO)-->
-    <meta property="og:title" content="Meet Yaounde Grow Together Chamber Of Commerce" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="#"/>
-    <meta property="og:url" content="https://ndikumndifor.github.io/wdd230/" />
+    <meta property="og:title" content="Meet Yaounde Grow Together Chamber Of Commerce">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="../chamber/images/hero-large-ch">
+    <meta property="og:url" content="https://ndikumndifor.github.io/wdd230/">
 
     <!--Below are the Open Graph meta properties to enhance  twitter social media optimization (Social media SEO)-->
     <meta name="twitter:title" content=" Meet Yaounde Grow Together Chamber Of Commerce"/>
     <meta name="twitter:description" content="We aime at developing businesses in the city of yaounde by...">
-    <meta name="twitter:image" content="#">
+    <meta name="twitter:image" content="../chamber/images/hero-large-ch">
     <meta name="twitter:card" content="summary_large_image">
 
     <!--Linking the favicon-->
@@ -34,8 +34,8 @@
         <div class="container">
             <div class="logo"><h2>LOGO</h2></div>
             <div id="name">
-                <h2>Yaounde Grow Together </h2>
-                <h3>Chamber Of Commerce</h3>
+                <h1>Yaounde Grow Together Chamber Of Commerce </h1>
+                <!-- <span class="smaller-text"></span> -->
             </div>
         </div>
         <nav>
@@ -50,7 +50,12 @@
         <a href="#" id="menu"></a>
         <!-- <a href="#" id="menu" onclick="toggleMenu()">&#9776;</a> -->
     
-
+    <!-- Rounded switch -->
+    <label class="switch">
+        <!-- <input type="checkbox" checked id ="checked"> -->
+        <input type="checkbox" id ="checked">
+        <span class="slider round"></span>
+    </label>
     </header>
     <nav>
         <ul class="navigation">
@@ -102,10 +107,11 @@
         </div>
     </main>
     <!-- Rounded switch -->
-    <label class="switch">
-        <input type="checkbox" checked id ="checked">
+    <!-- <label class="switch"> -->
+        <!-- <input type="checkbox" checked id ="checked"> -->
+        <!-- <input type="checkbox" id ="checked">
         <span class="slider round"></span>
-    </label>
+    </label> -->
     <footer>
         <p>&copy;2023 | Ndikum .S Ndifor | WDD 230-project | <span id="lastModified"></span></p>
         <script src="../chamber/scripts/getDate.js"></script>
