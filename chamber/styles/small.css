@@ -33,9 +33,9 @@ header {
     font-size: 0.6rem;
 } */
 
-main {
+/* main {
     text-align: center;
-}
+} */
 
 .event {
     border: 1.5px solid  #153243;
@@ -156,6 +156,14 @@ nav
     color: #FFF;
 }
 
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p, ol, ul, figcaption {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 /* STYLING FOR THE TOGGLE SWITCH */
 
 /* The switch - the box around the slider */
@@ -232,6 +240,107 @@ input:checked + .slider::before {
 .windchill-value {
     font-size: 2rem;
 }
+
+
+/* Styling for the discover page */
+
+.home-grid {
+    display: grid;
+    max-width: 380px;
+    margin: 0 auto;
+    column-gap: 0.8rem;
+    padding: 0.8rem;
+}
+
+div.local-storage {
+    display: block;
+    margin: 0px auto; 
+    text-align: center;
+    
+    font-size: 1.1rem;
+    padding: 1rem;
+}
+
+iframe, img {
+    max-width: 100%;
+}
+
+.box {
+   max-width: 380px;
+}
+
+div.calender  {
+    max-width: 380px;
+}
+
+#discover {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.container1 .box, .container2 .box {
+    display: block;
+    margin-top: 1rem;
+}
+
+
+.demo-sect, .local-storage{
+    margin-top: 2rem;
+    padding: 1rem;
+    border:  1px solid #777;
+    border-radius: 5px;
+}
+
+.container1 {
+    margin-top: 1rem;
+}
+
+.sidebar {
+    margin-top: 2rem;
+}
+
+ h3{
+   margin-top: 1.3rem;   
+}
+
+main .container1 .box img, main .container2 .box img{
+    border-radius: 3px;
+}
+
+footer p {
+    margin: 4rem 2rem;
+}
+
+main div.calender {
+    margin-top: 1rem;
+}
+
+#demographics {
+    text-align: center;
+}
+
+iframe {
+  border: 1px solid #777;
+  border-radius: 5px; 
+}
+
+div.container1 .box:hover, div.container2 .box:hover{
+    transition: 0.5s;
+}
+
+div.container1 .box:hover, div.container2 .box:hover {
+    transform: scale(0.8);
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -18,5 +18,50 @@
         line-height: 1rem;
         font-size: 1.3rem;
     }
+
+    /* styling for discover */
+
+    /* body main.home-grid {
+        grid-template: auto/ 1fr 2fr;
+        column-gap: 1rem;
+    }
+
+    .home-grid #discover {
+        margin-top: 2rem;
+    }
+
+    body main .sidebar, body main.home-grid img {
+        margin-left: 4rem;
+    } */
+
+    /* body main.home-grid {
+        max-width: 800px;
+    } */
+
+    
+    body main.home-grid {
+        grid-template:auto/ 1fr 1fr 1fr ;
+        max-width: 1200px;
+    }
+
+    .sidebar {
+        grid-column: 1/2;
+    }
+
+    main .container1 {
+        grid-column: 2/3;
+    }
+
+    main .container2 {
+        grid-column: 3/4;
+    }
+
+    main div.container2 {
+        margin-top: 1rem;
+    }
+    main.home-grid #discover {
+        grid-column: 1/4;
+        align-content: center;
+    }
 } 
 

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Ndikum Sabastine]- Yaounde Grow Together Chamber of Commerce</title>
+    <meta name="description" content="Learning WDD 230 - Web Frontend Developement with Ndikum Sabastine on my course assignment portal" />
+    <meta name="author" content="Ndikum Sabastine"/>
+
+    <!--Below are the Open Graph meta properties to enhance  facebook social media optimization (Social media SEO)-->
+    <meta property="og:title" content="Meet Yaounde Grow Together Chamber Of Commerce">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="../chamber/images/hero-large-ch">
+    <meta property="og:url" content="https://ndikumndifor.github.io/wdd230/">
+
+    <!--Below are the Open Graph meta properties to enhance  twitter social media optimization (Social media SEO)-->
+    <meta name="twitter:title" content=" Meet Yaounde Grow Together Chamber Of Commerce"/>
+    <meta name="twitter:description" content="We aime at developing businesses in the city of yaounde by...">
+    <meta name="twitter:image" content="../chamber/images/hero-large-ch">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!--Linking the favicon-->
+    <link rel="icon" href="favicon-chamb.ico">
+
+    <!-- Linking the css files -->
+    <link rel="stylesheet" href="../chamber/styles/normalize.css">
+    <link rel="stylesheet" href="../chamber/styles/large.css">
+    <link rel="stylesheet" href="../chamber/styles/medium.css">
+    <link rel="stylesheet" href="../chamber/styles/small.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Oswald:wght@200;400&family=Oxygen:wght@300&family=Roboto:ital@1&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo"><h2>LOGO</h2></div>
+            <div id="name">
+                <h1>Yaounde Grow Together Chamber Of Commerce </h1>
+                <!-- <span class="smaller-text"></span> -->
+            </div>
+        </div>
+        <nav>
+            <ul class="navigation1">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+            </ul>
+        </nav>
+        
+        <a href="#" id="menu"></a>
+        <!-- <a href="#" id="menu" onclick="toggleMenu()">&#9776;</a> -->
+    
+    <!-- Rounded switch -->
+    <label class="switch">
+        <!-- <input type="checkbox" checked id ="checked"> -->
+        <input type="checkbox" id ="checked">
+        <span class="slider round"></span>
+    </label>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+        </ul>
+    </nav>
+    <main class="home-grid">
+        <h1 id="discover">Want to be Marvelled! Discover!</h1>
+        <aside class="sidebar">
+            <div class="local-storage"></div>
+            <div class="demo-sect">
+                <h2 class="demographics" id="demographics">Community Demographics</h2>
+                <h3 class="statistics">Population</h3>
+                <p>
+                    The current metro area Population of yaounde as of 
+                    23023 is 4.5 million people.
+                </p>
+                <h3 class="statistics">Age range</h3>
+                <p>
+                    The median age in Yaounde is 17.7 years, thus yaounde enjoys a with
+                    more than 75% of the population being under the age of 50 years. 51.1 percent of the population 
+                    is female while 49.9% of the population is male.
+                </p>
+                <h3 class="statistics">Education</h3>
+                <p>With many renoun high standard universities which trains in a diversity
+                    of firlds ranging from sciences, STEM, health care ande many others, 
+                    should you decide, you can tap from a very large pool of highly qualified
+                    and experience labour to grow your business to the next level.
+                </p>
+            </div>
+            <div class="calender">
+                <iframe src="https://calendar.google.com/calendar/embed?src=sebastienndifor%40gmail.com&ctz=Africa%2FLagos"  width="400" height="250" loading="lazy"></iframe>
+                
+            </div>
+        </aside>                            
+            <div class="container1">
+                <figure class="box" id="box1">
+                    <img loading="lazy" src="../chamber/images/chamber-380.webp" alt="chamber's Administratif building" width="380" height="300">
+                    <figcaption> Administratif building</figcaption>
+                </figure>
+                <figure class="box" id="box2">
+                    <img loading="lazy" src="../chamber/images/fruit-380.webp" alt="friuts market" width="380" height="300">
+                    <figcaption class="center">Yaounde fruit market</figcaption>
+                </figure>
+                <figure class="box" id="box3">
+                    <img loading="lazy" src="../chamber/images/hotel-380.webp" alt="hotel look at night" width="380" height="300">
+                    <figcaption>Splendid Hotel</figcaption>
+                </figure>
+            </div>
+
+            <div class="container2">
+                <figure class="box" id="box4">
+                    <img loading="lazy" src="../chamber/images/people-380.webp" alt=" women sitted and smilling" width="380" height="300">
+                    <figcaption>Meet the people</figcaption>
+                </figure>
+                <figure class="box" id="box5">
+                    <img loading="lazy" src="../chamber/images/roasted-380.webp" alt="roasted meat sold" width="380" height="300">
+                    <figcaption>Get some roated meat</figcaption>
+                </figure>
+                <figure class="box" id="box6">
+                    <img loading="lazy" src="../chamber/images/beach-380.webp" alt="beach at sunset" width="380" height="300">
+                    <figcaption>Sunset beach</figcaption>
+                </figure>
+            </div>
+    </main>
+    <footer>
+            
+        <p>&copy;2023 | Ndikum .S Ndifor | WDD 230-project | <span id="lastModified"></span></p>
+        <script src="../chamber/scripts/getDate.js"></script>
+        <script src="../chamber/scripts/windchill.js"></script>
+    </footer>  
+</body>
+</html>
