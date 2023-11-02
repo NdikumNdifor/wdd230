@@ -11,6 +11,7 @@ body {
 
 main {
     display: grid;
+
 }
 
 header {
@@ -90,6 +91,10 @@ ul.navigation {
     padding: 4rem 0;
 }
 
+.card p {
+    margin: 0 0.5rem;
+}
+
 footer {
     padding: 1rem 0.5rem;
     background-color: #343531;
@@ -123,6 +128,14 @@ header img {
 
 img {
     max-width: 100%;
+    height: auto;
+}
+
+iframe {
+    max-width: 100%;
+    /* height: auto; */
+
+
 }
 
  .hero img {

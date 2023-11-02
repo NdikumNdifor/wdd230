@@ -3,7 +3,7 @@
   
     main {
         grid-template-columns: auto auto;
-        column-gap: 0.5rem;
+        gap: 0.5rem;
         /* below defines the width of the "main" to fix width of 960px */
         max-width: 960px;
         /* The below line of code centers the main on the page */   
@@ -42,5 +42,9 @@
         display: block;
         text-align: center;
    }
-   
+
+   main .google-map {
+    grid-column: 1/3;
+    grid-row: 4/5;
+   }
 }
