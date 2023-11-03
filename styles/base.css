@@ -135,12 +135,12 @@ iframe {
     max-width: 100%;
     /* height: auto; */
 
-
 }
 
- .hero img {
+ /* .hero img {
+
     height: auto;  
-}
+} */
 
 footer img {
     display: none;

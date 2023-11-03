@@ -1,5 +1,11 @@
-.hero img {
+.hero  img {
     max-width: 100%;
     height: auto;
+}
+
+.hero {
+    max-width: 1280px;
+    display: block;
+    margin: 0 auto;
 }
 

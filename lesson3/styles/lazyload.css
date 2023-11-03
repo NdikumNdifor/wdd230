@@ -3,7 +3,7 @@
     height: auto;
 
     background-color: black;
-    animation: fade 15s;
+    animation: fade 10s;
 }
 
 @keyframes fade {
@@ -22,13 +22,12 @@ header {
 }
 
 main {
-    
     max-width: 500px;
     margin: 0 auto;
 }
 
-p {
+/* p {
     width: 500px;
     margin: 0 auto;
-}
+} */
 
