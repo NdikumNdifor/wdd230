@@ -1,0 +1,62 @@
+{
+    "members" : [
+        {
+            "name" : "APPLE",
+            "address" : "1 Apple Park Way",
+            "phone" : "+1 400-961-1560",
+            "iconUrl" : "../../chamber/data/apple.svg",
+            "membershipLevel" : "Gold"
+            
+        },
+
+        {
+            "name" : "ROLL ROYCE",
+            "address" : "2 Rolls royce park way",
+            "phone" : "+1 400-961-1561",
+            "iconUrl" : "../../chamber/data/rolls-royce.svg",
+            "membershipLevel" : "Gold"
+             
+        },
+
+        {
+            "name" : "LOCKHEED MARTIN",
+            "address" : "2 Rolls royce park way",
+            "phone" : "+1 400-961-1562",
+            "iconUrl" : "../../chamber/data/lockheed-martin.svg",
+            "membershipLevel" : "Gold"
+             
+        },
+
+        {
+            "name" : "IBM",
+            "address" : "Angel 3 Park avenue Final",
+            "phone" : "+1 400-961-1568",
+            "iconUrl" : "../../chamber/data/ibm.svg",
+            "membershipLevel" : "Gold" 
+        },
+
+        {
+            "name" : "SPACEX",
+            "address" : "SpaceX milky way Avenue",
+            "phone" : "+1 400-961-1565",
+            "iconUrl" : "../../chamber/data/spaceX.svg",
+            "membershipLevel" : "Gold" 
+        },
+
+        {
+            "name" : "BLACK ROCK",
+            "address" : "The water way golden street",
+            "phone" : "+1 800-961-1569",
+            "iconUrl" : "../../chamber/data/blackrock.svg",
+            "membershipLevel" : "Bronz" 
+        },
+        
+        {
+            "name" : "NORTHROP GRUMMAN",
+            "address" : "Street of business martyr",
+            "phone" : "+1 000-961-1569",
+            "iconUrl" : "../../chamber/northrop-grumman.svg",
+            "membershipLevel" : "Bronz" 
+        }
+    ]
+}
