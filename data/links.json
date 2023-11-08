@@ -1,0 +1,109 @@
+{
+    "lessons" : [
+        {
+            "lesson" : "02",
+            "links" : [
+                {
+                    "url" : "https://ndikumndifor.github.io/wdd230/lesson2/design.html", 
+                    "title" :"Web Design principles"
+                },
+
+                {
+                    "url" : "https://ndikumndifor.github.io/wdd230/lesson1/media-quer.html",
+                    "title" : "Media Query"
+                },
+
+                {
+                    "url" : "https://ndikumndifor.github.io/wdd230/lesson2/disign-principles.html",
+                    "title" : "Design Principles Document"
+                }
+            ]
+        },
+        {
+            "lesson" : "03",
+            "links" : [
+                {
+                    "url": "https://www.w3schools.com/css/exercise.asp?filename=exercise_combinators4",
+                    "title" : "CSS Combinators"
+                },
+                {
+                    "url" : "https://codepen.io/ndikumndifor/pen/bGOLOGp",
+                    "title" : "CSS Pseudo Elements"
+                },
+                {
+                    "url" : "https://codepen.io/ndikumndifor/pen/QWzmwxq?editors=0110",
+                    "title" : "Responsive Hamburger Menu"
+                },
+                {
+                    "url" : "https://ndikumndifor.github.io/wdd230/lesson3/site-plan-index.html",
+                    "title" : "Site Plan"
+                }
+
+            ]
+        },
+        {
+            "lesson" : "04",
+            "links" : [
+                {
+                    "url" : "https://codepen.io/ndikumndifor/pen/rNoZOoX?editors=1100",
+                    "title" : "CSS Pseudo Classes"
+                },
+                {
+                    "url" : "https://ndikumndifor.github.io/wdd230/chamber/index.html",
+                    "title" : "Chamber of Commerce Home Page"
+                } 
+            ]
+        },
+        {
+            "lesson" : "05",
+            "links" : [
+                {
+                    "url" : "https://ndikumndifor.github.io/wdd230/lesson5/bom.html",
+                    "title" : "Add Item Application"   
+                },
+                {
+                    "url" : "https://ndikumndifor.github.io/wdd230/chamber/index.html",
+                    "title" : "Dark Mode Toggle Switch"
+                }
+            ]
+        },
+        {
+            "lesson" :"06",
+            "links" : [
+                {
+                    "url" : "./lesson3/images/landscape.webp",
+                    "title" : "WebP Image Format"
+                },
+                {
+                    "url" : "https://ndikumndifor.github.io/wdd230/lesson6/responsive-image.html",
+                    "title" : "Responsive Image"
+                },
+                {
+                    "url" : "https://ndikumndifor.github.io/wdd230/chamber/index.html",
+                    "title" : "Updated Chamber of Commerce with Hero Images"
+                }
+            ]
+        },
+        {
+            "lesson" : "07",
+            "links" : [
+                {
+                    "url" : "https://ndikumndifor.github.io/wdd230/lesson3/lazyload.html",
+                    "title" : "Demonstrating Image Lazy Loading"
+                },
+                {
+                    "url" : "https://ndikumndifor.github.io/wdd230/chamber/discover.html",
+                    "title" : "Fully Responsive Chamber of Commerce Discover Page"
+                },
+                {
+                    "url" : "https://ndikumndifor.github.io/wdd230/chamber/index.html",
+                    "title" : "Chamber of Commerce Home Page With Functional Discover link"
+                }
+            ]
+        }
+
+
+
+
+    ]
+}
