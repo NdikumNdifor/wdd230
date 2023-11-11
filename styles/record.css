@@ -1,0 +1,9 @@
+.record {
+    text-align: center;
+    grid-template: auto/1fr;
+    padding: 8rem 0;
+}
+
+.record p {
+    font-size: 1.5rem;
+}

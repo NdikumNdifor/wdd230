@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Ndikum Sabastine]- WDD 230 - Web Frontend Developement</title>
+    <meta name="description" content="Learning WDD 230 - Web Frontend Developement with Ndikum Sabastine on my course assignment portal" />
+    <meta name="author" content="Ndikum Sabastine" />
+
+    <!--Referencing the google fons API-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+    <!--Referencing the normalize css file for reducing browser inconsistency-->
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/large.css">
+    <link rel="stylesheet" href="./styles/form.css">
+    <link rel="icon" href="favicon.ico">
+
+    <!--Below are the Open Graph meta properties to enhance social media optimization (Social media SEO)-->
+    <meta property="og:title" content="A Look To My Portal Home Page Exploring Web Frontend Development I" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image"
+        content="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tripadvisor.com%2FTourism-g293773-Yaounde_Centre_Region-Vacations.html&psig=AOvVaw3w65GbUgQVZCBklxs-qnwL&ust=1694890903745000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCKCyoOWmrYEDFQAAAAAdAAAAABAh" />
+    <meta property="og:url" content="https://ndikumndifor.github.io/wdd230/" />
+</head>
+
+<body>
+    <header>
+        <img src="./images/ndikum1webp.webp" width="130" height="180" alt="Profile picture">
+        <h1>Ndikum Sabstine Ndifor</h1>
+    </header>
+    <nav>
+        <!-- <li><a class="ham" href="#" onclick="toggleMenu()">&#9776; Menu</a></li> -->
+        <a href="#" id="hamburgerBtn"></a>
+        <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="chamber/siteplan.html">Site Plan</a></li>
+            <li><a href="chamber/">Chamber</a></li>
+            <li><a href="ttps://www.byui.edu">BYU-Idaho</a></li>
+            <li><a href="https://www.churchofjesuschrist.org/study/scriptures">Scripture</a></li>
+        </ul>
+    </nav>
+    <main class="form1">
+        <form method="get" action="/record.html">
+            <div class="displayMessage"></div>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="top" >Username*<input type="text" id="fname" name="fname" required></label>
+                <label class="top" >Password*<input type="password" id="password" name="password" title="Only Alpha Numeric is Accepted" pattern="[a-zA-Z0-9 ]{8,}+" required></label>
+                <label class="top" >Confirm Password*<input type="password" id="password1" name="password1"  required></label>
+                <label class="top" >Email* <input type="email" id="email" name="email" title="Your email should include .byui and .edu" pattern="[a-zA-Z0-1._%-+]+@byui\.edu$" required></label>
+                
+            </fieldset>
+            <fieldset>
+                <legend>Page Review</legend>
+                <label class="top" for="r">Ratings:
+                    <input type="range" id="r" name="r" min="1" max="10" value="1" step="1" list="rangingvalues">
+                    <datalist id="rangingvalues">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">6</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </datalist> 
+                    <div id="rangingvalue">1</div>
+                </label>
+            </fieldset>
+            <input type="submit" value="Give Your Rating" class="submitBtn">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2023 Ndikum Sabastine Ndifor | Cameroon </p>
+        <img src="./images/flag.png" width="120" alt="Cameroon Flag">
+        <p id="lastModified"></p>
+    </footer>
+    <script src="./scripts/getDate.js"></script>
+    <script src="./scripts/form.js"></script>
+</body>
+</html>
