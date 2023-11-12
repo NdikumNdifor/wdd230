@@ -1,0 +1,23 @@
+{
+    "familyName" : "Roumanov",
+    "dateMovedToWard" : "22 02 01",
+    "numberOfFamilyMembers" : 3,
+    "bishoVisit" : true,
+    "members" : [
+        {
+            "name" : "Roumanov Anatoli Popov",
+            "gender" : "Male",
+            "age" : 42
+        },
+        {
+            "name" : "Roumanov Maria Alexander",
+            "gender" : "Female",
+            "age" : 17
+        },
+        {
+            "name" : "Roumanov Ivanka",
+            "gender" : "Female",
+            "age" : 38
+        }
+    ]
+}
