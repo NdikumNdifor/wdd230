@@ -68,4 +68,11 @@
         margin: 4rem 4rem;
     }
 
+    /* ------------------ FORM ---------------------*/
+    main form {
+        width: 100%;
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
 }                                       
