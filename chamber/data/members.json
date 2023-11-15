@@ -37,7 +37,7 @@
 
         {
             "name" : "SPACEX",
-            "address" : "SpaceX milky way Avenue",
+            "address" : "SpaceX milky way Avenue First",
             "phone" : "+1 400-961-1565",
             "iconUrl" : "../../chamber/data/spaceX.svg",
             "membershipLevel" : "Gold" 
