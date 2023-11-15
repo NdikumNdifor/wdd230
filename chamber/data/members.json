@@ -11,7 +11,7 @@
 
         {
             "name" : "ROLL ROYCE",
-            "address" : "2 Rolls royce park way",
+            "address" : "2 Rolls royce park way2",
             "phone" : "+1 400-961-1561",
             "iconUrl" : "../../chamber/data/rolls-royce.svg",
             "membershipLevel" : "Gold"
