@@ -15,7 +15,7 @@
 
                 {
                     "url" : "lesson2/disign-principles.html",
-                    "title" : "Design Principles Document | "
+                    "title" : "Design Principles Document"
                 }
             ]
         },
@@ -36,7 +36,7 @@
                 },
                 {
                     "url" : "lesson3/site-plan-index.html",
-                    "title" : "Site Plan | "
+                    "title" : "Site Plan"
                 }
 
             ]
@@ -50,7 +50,7 @@
                 },
                 {
                     "url" : "chamber/index.html",
-                    "title" : "Chamber of Commerce Home Page | "
+                    "title" : "Chamber of Commerce Home Page"
                 } 
             ]
         },
@@ -59,11 +59,11 @@
             "links" : [
                 {
                     "url" : "lesson5/bom.html",
-                    "title" : "Add Item Application"   
+                    "title" : "Add Item Application | "   
                 },
                 {
                     "url" : "chamber/index.html",
-                    "title" : "Dark Mode Toggle Switch | "
+                    "title" : "Dark Mode Toggle Switch"
                 }
             ]
         },
@@ -80,7 +80,7 @@
                 },
                 {
                     "url" : "chamber/index.html",
-                    "title" : "Updated Chamber of Commerce with Hero Images | "
+                    "title" : "Updated Chamber of Commerce with Hero Images"
                 }
             ]
         },
@@ -97,7 +97,7 @@
                 },
                 {
                     "url" : "chamber/index.html",
-                    "title" : "Chamber of Commerce Home Page With Functional Discover link | "
+                    "title" : "Chamber of Commerce Home Page With Functional Discover link"
                 }
             ]
         },
@@ -109,15 +109,14 @@
                     "title" : "Building An HTML Table | "
                 },
                 {
-                    "url" : "wdd230/form.html",
+                    "url" : "./form.html",
                     "title" : "Building a Responsive HTML Form | "
                 },
                 {
                     "url" : "chamber/join.html",
-                    "title" : "The Join Page for the Chamber of commerce | "
+                    "title" : "The Join Page for the Chamber of commerce"
                 }
             ]
         }
-
     ]
 }
