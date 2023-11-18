@@ -20,7 +20,7 @@
 
         {
             "name" : "BLUE ORIGINE",
-            "address" : "2 Rolls royce park way",
+            "address" : "Space Lunch Park Avenue",
             "phone" : "+1 400-961-1562",
             "iconUrl" : "../../chamber/data/blue-origin.svg",
             "membershipLevel" : "Gold",
@@ -30,7 +30,7 @@
 
         {
             "name" : "IBM",
-            "address" : "Angel 3 Park avenue Final",
+            "address" : "Angel 3 Park Avenue Final",
             "phone" : "+1 400-961-1568",
             "iconUrl" : "../../chamber/data/ibm.svg",
             "membershipLevel" : "Gold",
@@ -39,7 +39,7 @@
 
         {
             "name" : "SPACEX",
-            "address" : "SpaceX milky way Avenue First",
+            "address" : "SpaceX Milky Way Avenue First",
             "phone" : "+1 400-961-1565",
             "iconUrl" : "../../chamber/data/spaceX.svg",
             "membershipLevel" : "Gold",
@@ -48,7 +48,7 @@
 
         {
             "name" : "BLACK ROCK",
-            "address" : "The water way golden street",
+            "address" : "The Water Way Golden Street",
             "phone" : "+1 800-961-1569",
             "iconUrl" : "../../chamber/data/blackrock.svg",
             "membershipLevel" : "Bronz",
@@ -57,9 +57,9 @@
         
         {
             "name" : "NORTHROP GRUMMAN",
-            "address" : "Street of business martyr",
+            "address" : "Street of Business Martyr",
             "phone" : "+1 000-961-1569",
-            "iconUrl" : "../../chamber/data/northrop-grumman.svg",
+            "iconUrl" : "../../chamber/data/northropGrumman.svg",
             "membershipLevel" : "Bronz",
             "website": "https://www.northropgrumman.com"  
         }
