@@ -19,10 +19,10 @@
         },
 
         {
-            "name" : "LOCKHEED MARTIN",
+            "name" : "BLUE ORIGINE",
             "address" : "2 Rolls royce park way",
             "phone" : "+1 400-961-1562",
-            "iconUrl" : "../../chamber/data/lockheed-martin.svg",
+            "iconUrl" : "../../chamber/data/blue-origin.svg",
             "membershipLevel" : "Gold",
             "website": "https://www.lockheedmartin.com" 
              
@@ -59,7 +59,7 @@
             "name" : "NORTHROP GRUMMAN",
             "address" : "Street of business martyr",
             "phone" : "+1 000-961-1569",
-            "iconUrl" : "../../chamber/northrop-grumman.svg",
+            "iconUrl" : "../../chamber/data/northrop-grumman.svg",
             "membershipLevel" : "Bronz",
             "website": "https://www.northropgrumman.com"  
         }
