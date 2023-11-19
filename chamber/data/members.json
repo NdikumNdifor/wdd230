@@ -2,7 +2,7 @@
     "members" : [
         {
             "name" : "APPLE",
-            "address" : "1 Apple Park Way",
+            "address" : "Apple Park Way",
             "phone" : "+1 400-961-1560",
             "iconUrl" : "../../chamber/data/apple.svg",
             "membershipLevel" : "Gold",
@@ -15,7 +15,7 @@
             "phone" : "+1 400-961-1561",
             "iconUrl" : "../../chamber/data/rolls-royce.svg",
             "membershipLevel" : "Gold",
-            "website": "https://www.rolls-roycemotorcars.com/en_GB/home.html"  
+            "website": "https://www.rolls-roycemotorcars.com"  
         },
 
         {
@@ -30,16 +30,16 @@
 
         {
             "name" : "IBM",
-            "address" : "Angel 3 Park Avenue Final",
+            "address" : "Angel 3 Park",
             "phone" : "+1 400-961-1568",
             "iconUrl" : "../../chamber/data/ibm.svg",
             "membershipLevel" : "Gold",
-            "website": "https://www.ibm.com/in-en"  
+            "website": "https://www.ibm.com"  
         },
 
         {
             "name" : "SPACEX",
-            "address" : "SpaceX Milky Way Avenue First",
+            "address" : "First Avenue ",
             "phone" : "+1 400-961-1565",
             "iconUrl" : "../../chamber/data/spaceX.svg",
             "membershipLevel" : "Gold",
@@ -48,16 +48,16 @@
 
         {
             "name" : "BLACK ROCK",
-            "address" : "The Water Way Golden Street",
+            "address" : " Golden Street",
             "phone" : "+1 800-961-1569",
             "iconUrl" : "../../chamber/data/blackrock.svg",
             "membershipLevel" : "Bronz",
-            "website": "https://www.blackrock.com/corporate/global-directory"  
+            "website": "https://www.blackrock.com"  
         },
         
         {
             "name" : "NORTHROP GRUMMAN",
-            "address" : "Street of Business Martyr",
+            "address" : "Business Martyr",
             "phone" : "+1 000-961-1569",
             "iconUrl" : "../../chamber/data/northropGrumman.svg",
             "membershipLevel" : "Bronz",
