@@ -2,7 +2,7 @@
     "members" : [
         {
             "name" : "APPLE",
-            "address" : "Apple Park Way",
+            "address" : "Apple Park",
             "phone" : "+1 400-961-1560",
             "iconUrl" : "../../chamber/data/apple.svg",
             "membershipLevel" : "Gold",
@@ -11,7 +11,7 @@
 
         {
             "name" : "ROLL ROYCE",
-            "address" : "2 Rolls royce park way2",
+            "address" : "royce park",
             "phone" : "+1 400-961-1561",
             "iconUrl" : "../../chamber/data/rolls-royce.svg",
             "membershipLevel" : "Gold",
@@ -20,7 +20,7 @@
 
         {
             "name" : "BLUE ORIGINE",
-            "address" : "Space Lunch Park Avenue",
+            "address" : "Park Avenue",
             "phone" : "+1 400-961-1562",
             "iconUrl" : "../../chamber/data/blue-origin.svg",
             "membershipLevel" : "Gold",
@@ -30,7 +30,7 @@
 
         {
             "name" : "IBM",
-            "address" : "Angel 3 Park",
+            "address" : "Angel Park",
             "phone" : "+1 400-961-1568",
             "iconUrl" : "../../chamber/data/ibm.svg",
             "membershipLevel" : "Gold",
@@ -57,7 +57,7 @@
         
         {
             "name" : "NORTHROP GRUMMAN",
-            "address" : "Business Martyr",
+            "address" : "Business Road",
             "phone" : "+1 000-961-1569",
             "iconUrl" : "../../chamber/data/northropGrumman.svg",
             "membershipLevel" : "Bronz",
