@@ -48,5 +48,14 @@
 
     /*--------------- FORM -------------- */
 
+
+
+    /*--------------- Directory Page -------------*/
+
+   main #article section {
+        grid-template-columns: repeat(5, 1fr);
+        text-align: center;
+    }
+
 } 
 

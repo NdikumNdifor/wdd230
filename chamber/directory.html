@@ -28,6 +28,10 @@
     <link rel="stylesheet" href="../chamber/styles/medium.css">
     <link rel="stylesheet" href="../chamber/styles/small.css">
 
+    <!-- Material icon for grid view and list view -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Oswald:wght@200;400&family=Oxygen:wght@300&family=Roboto:ital@1&display=swap" rel="stylesheet">
@@ -69,18 +73,24 @@
             <li><a href="https://ndikumndifor.github.io/wdd230/chamber/join.html">Join</a></li>
         </ul>
     </nav>
-    <main class="main">
+    <main>
         <h1>You Can Be With The Biggest As Well!</h1>
         <div class="menu">
-            <button id="grid">⏹️Grid</button>
-            <button id="list">📄List</button>
+            <button id="grid"><span class="material-symbols-outlined">grid_view</span>
+            </button>
+            <button id="list">
+                <span class="material-symbols-outlined">view_list</span>
+            </button>
         </div>
-        <div class="members" id="article"></div>
+        <div class="members" id="article">
+
+        </div>
     </main>
     <footer>
         <p>&copy;2023 | Ndikum .S Ndifor | WDD 230-project | <span id="lastModified"></span></p>
-        <script src="../chamber/scripts/getDate.js"></script>
-        <script src="../chamber/scripts/windchill.js"></script>
-    </footer>  
+    </footer>
+    <script src="../chamber/scripts/getDate.js"></script>
+    <script src="../chamber/scripts/windchill.js"></script>
+    <script src="../chamber/scripts/directory.js"></script>
 </body>
 </html>

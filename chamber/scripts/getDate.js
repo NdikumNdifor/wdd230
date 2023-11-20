@@ -28,6 +28,7 @@ changeTextAndBackground.addEventListener("change", () => {
 });
 
 
+
 /* -------------- SCRIPT FOR DISCOVER PAGE --------------------*/
 
 // Inserting the last modified date at thr footer of the discover page
@@ -56,8 +57,8 @@ else {
 
 let displayMessage = document.querySelector(".local-storage")
 
-if (msSinceVisit < 600) {
-	displayMessage.textContent = 'Welcome! Let us know if you have any questions.';
+if (msSinceVisit < 600 ) {
+	displayMessage.textContent = "Welcome! Let us know if you have any questions.";
 } 
 else if (msSinceVisit < (24 * 3600000)) {
     displayMessage.textContent = 'Back so soon! Awesome!';
@@ -79,49 +80,133 @@ localStorage.setItem("lastVisitDate", JSON.stringify(currDateInMs));
 
 
 
-/* ------------ JAVASCRIPT FOR CHAMBER OF COMMERCE'S DIRECTORY PAGE ------------- */
-
-const baseURL = "https://ndikumndifor.github.io/wdd230/";
-const membersURL = "https://ndikumndifor.github.io/wdd230/chamber/data/members.json";
-const cards = document.querySelector("#cards");
-
-async function getMemebersData() {
-    const response = await fetch(membersURL);
-    const membersData = response.json();
-    displayMembersData(membersData.members);
-}
-displayMembersData();
-
-const displayMembersData =  (members) => {
-    members.forEach( (member) => {
-        
-        const card = document.createElement("section");
-        const logo = document.createElement("img");
-
-        logo.setAttribute("src", member.iconUrl);
-        logo.setAttribute("loading", "lazy");
-        logo.setAttribute("alt", `Logo of ${member.name} company`);
-        logo.setAttribute("width", "140");
-        logo.setAttribute("height", "68");
-
-        card.appendChild(logo),
-        card.appendChild(member.name);
-        card.appendChild(member.address);
-        card.appendChild(member.phone);
-        card.appendChild(member.membershipLevel);
-
-        cards.appendChild(card);
-    })
-}
-
 /*----------------- Adding Date During form Submission ----------------*/
 const date = document.querySelector("#timestamp");
 
-const timestamp = new Date(); 
-const currentDate = Date.now(); // timestamp is the number of milliseconds since 1970:01:00:00
+const timestamp = new Date();
+// timestamp is the number of milliseconds since 1970:01:00:00 
+const currentDate = Date.now(); 
 date.value = currentDate;
 
 
+/* ------------ JAVASCRIPT FOR CHAMBER OF COMMERCE'S DIRECTORY PAGE ------------- */
+
+// const baseURL = "https://ndikumndifor.github.io/wdd230/";
+// const listURL = "https://ndikumndifor.github.io/wdd230/chamber/data/members.json";
+
+// // const listURL = "data/members.json";
+// let all = document.querySelector(".main");
+// all.style.backgroundColor = "blue";
+// let para = document.createElement("p")
+// all.append(para);
+
+// const cards = document.getElementById("article");
+
+// async function getMembersData() {
+//     const response = await fetch(listURL);
+//     const data = await response.json();
+//     console.log(data.members);
+//     // displayMembers(data.members);
+// }
+// getMembersData();
+
+// const displayMembers =  (members) => {
+//     members.forEach((member) => {
+        
+//         let card = document.createElement("section");
+//         let logo = document.createElement("img");
+//         let h3 = document.createElement("h3");
+//         let address = document.createElement("p");
+//         let telephone = document.createElement("p")
+//         let level = document.createElement("p")
+
+//         logo.setAttribute("src", member.iconUrl);
+//         logo.setAttribute("loading", "lazy");
+//         logo.setAttribute("alt", `Logo of ${member.name} company`);
+//         logo.setAttribute("width", "140");
+//         logo.setAttribute("height", "auto");
+
+//         h3.textContent = `${member.name}`;
+//         address.textContent = `${member.address}`;
+//         telephone.textContent = `${member.phone}`;
+//         level.textContent = `${member.membershipLevel}`
+
+//         card.appendChild(logo),
+//         card.appendChild(h3);
+//         card.appendChild(address);
+//         card.appendChild(telephone);
+//         card.appendChild(level);
+
+//         // card.appendChild(logo),
+//         // card.appendChild(`${member.name}`);
+//         // card.appendChild(`${member.address}`);
+//         // card.appendChild(`${member.phone}`);
+//         // card.appendChild(`${member.membershipLevel}`);
+
+//         cards.appendChild(card);
+        
+//     })
+    
+// }
+
+/*--------------- Js for grid ----------------*/
+// const gridbutton = document.querySelector("#grid");
+// const listbutton = document.querySelector("#list");
+// const display = document.querySelector("article");
+
+// // The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
+
+// gridbutton.addEventListener("click", () => {
+// 	// example using arrow function
+// 	display.classList.add("grid");
+// 	display.classList.remove("list");
+// });
+
+// listbutton.addEventListener("click", showList); // example using defined function
+
+// function showList() {
+// 	display.classList.add("list");
+// 	display.classList.remove("grid");
+// }
+
+
+
+/*------------------- JavaScript For The Banner -------------------------*/
+
+
+/*------------------- Js for current-temp --------------------*/
+
+const icon = document.querySelector("#icon");
+const temperature = document.querySelector("#temperature");
+const description = document.querySelector("#description");
+
+const url = "https://api.openweathermap.org/data/2.5/weather?lat=4.03&lon=11.51&appid=864294a8651dccdaa0d832552417e1e7&units=metric";
+
+async function apiFetch() {
+   try{
+      const response = await fetch(url);
+      const data = await response.json();
+      if (response.ok) {
+        //  console.log(data)
+         displayResults(data);
+      }else {
+         throw Error(await response.text());
+      }
+
+   } catch(error){
+      console.log(error);
+   }
+}
+apiFetch();
+
+function displayResults(data) {
+   temperature.innerHTML = `${data.main.temp}&deg;C`;
+    const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+    let desc = data.weather[0].description;
+    icon.setAttribute("src",`${iconsrc}`);
+    icon.setAttribute("alt", "Weather icon");
+    description.textContent = `${desc}`;
+}
 
 
 
