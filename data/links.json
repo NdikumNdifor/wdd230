@@ -117,6 +117,45 @@
                     "title" : "The Join Page for the Chamber of commerce"
                 }
             ]
+        },
+        {
+            "lesson" : "09",
+            "links" : [
+                {
+                    "url" : "lesson9/new-ward-members.json",
+                    "title" : "Creating A simple JSON file | "
+                },
+                {
+                    "url" : "data/links.json",
+                    "title" : "| Creating A JSON File Of Weekly Class Activity To Store in the Browser For Retrieval and Dynamic Display | "
+                },
+                {
+                    "url" : "lesson9/prophets.html",
+                    "title" : "Applyng The Fetch Method With 'Async Function' To Retrieve data from Browser API and Display | "
+                },
+                {
+                    "url" : "chamber/data/members.json",
+                    "title" : "Creating A 'members.json' File For members of Chamber of Commerce Website | "
+                },
+                {
+                    "url" : "chamber/directory.html",
+                    "title" : "Displaying Menbers of My Chamber of Commerce Website Stored in The Browser"
+                }
+            ]
+        },
+        {
+            "lesson" : "10",
+            "links" : [
+                {
+                    "url" : "lesson10/weather.html",
+                    "title" : "Using The OpenWeatherMap Third-Party API to Dispaly The Current Temperature | "
+                },
+                {
+                    "url" : "index.html",
+                    "title" : "Updating My Home Page With The Current Weather From OpenWeatherMap API | "
+                } 
+            ]
         }
+
     ]
 }
