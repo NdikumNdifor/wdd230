@@ -3,7 +3,7 @@ const baseURL = "https://ndikumndifor.github.io/wdd230/";
 const linksURL = "https://ndikumndifor.github.io/wdd230/data/links.json";
 
 // const sect = document.getElementById("section");
-const card = document.querySelector("#courseLinks");
+const weeklyLessons = document.querySelector("#courseLinks");
 
 // const ul = document.createElement("ul")
 
@@ -27,14 +27,11 @@ const displayLinks = (weeks) => {
             link.textContent = `${activity.title}`;
             li.appendChild(link);
         })
-
         // courseLinks.appendChild(li);
-        card.appendChild(li);
+        weeklyLessons.appendChild(li);
         // sect.appendChild(ul);     
     })
 }
-
-
 
 
 // const displayLinks = (weeks) => {

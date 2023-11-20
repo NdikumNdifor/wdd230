@@ -1,0 +1,40 @@
+
+header {
+    background-color: black;
+    padding: 2rem;
+    color: beige;
+}
+ 
+h1 {
+    text-align: center;
+}
+
+main {
+   padding: 0.5rem;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E8B6;
+}
+
+img {
+    display: block;
+    max-width: 100%; 
+    height: auto;
+    margin:0 auto;
+    border-radius: 10px 10px 0 0;
+  }
+
+footer {
+    text-align: center;
+    padding:4rem 0;
+    color: beige;
+    background-color: #160F29;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+

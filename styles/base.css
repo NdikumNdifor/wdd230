@@ -88,11 +88,13 @@ ul.navigation {
  } 
 
 .card div {
-    padding: 4rem 0;
+    padding: 2rem 0;
+    text-align: center;
 }
 
 .card p {
     margin: 0 0.5rem;
+    text-align: center;
 }
 
 footer {
@@ -121,6 +123,17 @@ section {
     border-radius: 5px 5px 0 0;
     background-color: #FFFFFF;
 }
+
+section#info.card {
+    padding-bottom: 2rem;
+    font-size: 1.3rem;
+}
+
+section#info.card p, section#info.card span {
+    color: navy;
+}
+
+
 
 header img {
     border-radius: 15px;

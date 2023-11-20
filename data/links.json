@@ -127,7 +127,7 @@
                 },
                 {
                     "url" : "data/links.json",
-                    "title" : "| Creating A JSON File Of Weekly Class Activity To Store in the Browser For Retrieval and Dynamic Display | "
+                    "title" : "Creating A JSON File with Weekly Class Activity To Store in the Browser For Retrieval and Dynamic Display | "
                 },
                 {
                     "url" : "lesson9/prophets.html",
@@ -135,11 +135,11 @@
                 },
                 {
                     "url" : "chamber/data/members.json",
-                    "title" : "Creating A 'members.json' File For members of Chamber of Commerce Website | "
+                    "title" : "Creating A 'members.json' File For members of Chamber Website | "
                 },
                 {
                     "url" : "chamber/directory.html",
-                    "title" : "Displaying Menbers of My Chamber of Commerce Website Stored in The Browser"
+                    "title" : "Displaying Members of My Chamber of Commerce Website Stored in 'members.JSON' File | "
                 }
             ]
         },
@@ -152,7 +152,7 @@
                 },
                 {
                     "url" : "index.html",
-                    "title" : "Updating My Home Page With The Current Weather From OpenWeatherMap API | "
+                    "title" : "Updating My Home Page With The Current Weather From OpenWeatherMap API"
                 } 
             ]
         }
