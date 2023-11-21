@@ -31,10 +31,9 @@ changeTextAndBackground.addEventListener("change", () => {
 
 /* -------------- SCRIPT FOR DISCOVER PAGE --------------------*/
 
-// Inserting the last modified date at thr footer of the discover page
+// Inserting the last modified date at the footer of the discover page
 let oLastModif1 = new Date(document.lastModified);
 document.getElementById("lastModified").innerHTML = `Lastly Modified: ${oLastModif1}`;
-
 
 // get the date right now in ms
 
@@ -45,7 +44,7 @@ let msSinceVisit = 0;
 
 // calculate ms since last visit
 
-if (localStorage.getItem("lastVisitDate") == null) {
+if (localStorage.getItem("lastVisitDate") == 0 || null) {
     msSinceVisit = 0;
 }
 else {
@@ -60,8 +59,8 @@ let displayMessage = document.querySelector(".local-storage")
 if (msSinceVisit < 600 ) {
 	displayMessage.textContent = "Welcome! Let us know if you have any questions.";
 } 
-else if (msSinceVisit < (24 * 3600000)) {
-    displayMessage.textContent = 'Back so soon! Awesome!';
+else if (msSinceVisit < 24 * 3600000) {
+    displayMessage.textContent = "Back so soon! Awesome!";
 }
 else {
     // calculate days since last visit
@@ -75,18 +74,15 @@ else {
 }
 
 // set the local storage 'last visit' to current date 
-
 localStorage.setItem("lastVisitDate", JSON.stringify(currDateInMs));
-
-
 
 /*----------------- Adding Date During form Submission ----------------*/
 const date = document.querySelector("#timestamp");
 
-const timestamp = new Date();
+const currentDate = new Date();
 // timestamp is the number of milliseconds since 1970:01:00:00 
-const currentDate = Date.now(); 
-date.value = currentDate;
+const timestamp = Date.now(); 
+date.value = `${timestamp}`;
 
 
 /* ------------ JAVASCRIPT FOR CHAMBER OF COMMERCE'S DIRECTORY PAGE ------------- */
@@ -180,7 +176,7 @@ const icon = document.querySelector("#icon");
 const temperature = document.querySelector("#temperature");
 const description = document.querySelector("#description");
 
-const url = "https://api.openweathermap.org/data/2.5/weather?lat=4.03&lon=11.51&appid=864294a8651dccdaa0d832552417e1e7&units=metric";
+const url = "https://api.openweathermap.org/data/2.5/weather?lat=4.03&lon=11.51&appid=864294a8651dccdaa0d832552417e1e7&units=imperial";
 
 async function apiFetch() {
    try{
@@ -188,7 +184,7 @@ async function apiFetch() {
       const data = await response.json();
       if (response.ok) {
         //  console.log(data)
-         displayResults(data);
+        //  displayResults(data);
       }else {
          throw Error(await response.text());
       }
