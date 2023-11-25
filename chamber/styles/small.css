@@ -10,14 +10,25 @@ header {
     display: flex;
     background-color: #153243;
     justify-content: space-between;
-    padding: 1rem 0.6rem;
+    padding: 0 0.6rem;
     align-items: center;
+}
+
+ .index {
+    max-width: 1500px;
+    margin: 0 auto;
+    /* position: relative; */
 }
 
 .container {
     display: flex;
     align-items: center;
     gap: 0.4rem;
+}
+
+main p {
+    margin-top: 0.3rem;
+    /* font-size: .9rem; */
 }
 
 #name {
@@ -28,44 +39,133 @@ header {
 }
 
 .event {
-    border: 1.5px solid  #153243;
     padding: 0.5rem 0.3rem;
 }
 
-
 .event section{
-    border: 1px solid gray;
+    /* border: 1px solid white; */
     margin-bottom: 0.3rem;
 }
 
  .weather {
-    padding: 2rem 0;
-} 
+    padding: 0.5rem 1rem;
+}
+
+.h2-border {
+    border-bottom: 0.25px solid #777;
+    /* padding-bottom: 0.5rem; */
+}
 
 .advert {
-    margin-top: 1rem;
-    border: 1.5px solid  #153243;
+    /* margin-top: 1rem; */
     padding:  0.3rem ;
 }
 
 .advert section {
-    border: 1px solid  gray;
+    /* border: 1px solid white; */
     margin: 0.3rem 0; 
 }
 
-footer {
+.spotlights {
+    margin-top: 0.5rem;
     text-align: center;
-    padding: 1rem 4rem;
+}
+
+/*--------temperature forecast part----------*/
+.forecasted {
+    
+    display: grid;
+    grid-template: auto/ repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.5rem;
+
+}
+
+.current-temp {
+    margin-top: 2rem ;
+}
+
+.forecast-title {
     color: #FFF;
-    background-color: #3C4142;
-    column-gap: 10px;
+    margin-top: 2rem;
+    text-align: center
+}
+
+.forecasted {
+    margin-top: 2rem;
+    text-align: center;
+    color: #000;
+    /* border: 1px solid whitesmoke; */
+}
+.forecasted h3{
     margin-top: 1rem;
+}
+.forecasted p {
+    font-weight: 700;
+}
+
+.forecasted section {
+    padding: 2rem;
+}
+
+#forecast {
+    background-image: url(../../chamber/images/weather.webp);
+    color: #FFF;
+}
+
+footer {
+    display: grid;
+    grid-template: auto/ 1fr 2fr;
+    background-color: #3C4142;
+    color: #FFF;
+    row-gap: 30px;
+    padding: 2rem 2rem;
+    margin-top: 1rem;
+}
+.email {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    text-align: center;
+    display: block;
+}
+span.span-foot {
+    font-size: 0.8rem;
+    font-weight: 200;
+    display: block;
+}
+
+.foot {
+    grid-column: 1/3;
+    font-size: 0.8rem;
+    font-weight: 0;
+    border-top: 1px solid;
+    text-align: center;
+    padding: 0 3rem;
+}
+
+.myname {
+    font-size: 1.2rem;
+}
+
+.para-foot {
+    margin-top: 25px;
 }
 
 img {
     max-width: 100%;
     height: auto;
 }
+
+footer div h3 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+footer.email {
+    grid-column: 4/5;
+}
+
+/*---------------- For Socials -------------*/
+
 
 /* Styling the "Join the chamber call to action(cta) button */
 .hero-image {
@@ -85,8 +185,6 @@ img {
 }
 
 
-
-
 /* Navigation*/
 
 #menu {
@@ -95,6 +193,7 @@ img {
     font-size: 1.7rem;
     background-color: rgba(0, 0, 0, 0.2);
     padding: 0 7px;
+    border: 0.1px solid white;
 }
 
 #menu::before {
@@ -163,7 +262,7 @@ p, ol, ul, figcaption {
     display: block;
     width: 50px;
     height: 20px;
-    top: 0.4rem;
+    top: 1rem;
     right: 0.65rem;
 }
 
@@ -283,7 +382,7 @@ div.calender  {
     margin-top: 2rem;
 }
 
- h3{
+.statistics {
    margin-top: 1.3rem;   
 }
 
@@ -291,9 +390,9 @@ main .container1 .box img, main .container2 .box img{
     border-radius: 3px;
 }
 
-footer p {
+/* footer p {
     margin: 4rem 2rem;
-}
+} */
 
 main div.calender {
     margin-top: 1rem;
@@ -481,10 +580,10 @@ section {
 	background-color:white;
 }
 
-section p {
+/* section p {
 	font-weight: 600;
 	font-size: smaller;
-}
+} */
 
 section a {
 	font-size: 0.85rem;

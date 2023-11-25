@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>[Ndikum Sabastine]- Yaounde Grow Together Chamber of Commerce</title>
-    <meta name="description" content="Learning WDD 230 - Web Frontend Developement with Ndikum Sabastine on my course assignment portal" />
-    <meta name="author" content="Ndikum Sabastine"/>
+    <meta name="description" content="We aime at developing businesses in the city of yaounde by promoting local business growth" />
+    <meta name="author" content="Ndikum Sabastine Ndifor"/>
 
     <!--Below are the Open Graph meta properties to enhance  facebook social media optimization (Social media SEO)-->
     <meta property="og:title" content="Meet Yaounde Grow Together Chamber Of Commerce">
@@ -15,7 +15,7 @@
 
     <!--Below are the Open Graph meta properties to enhance  twitter social media optimization (Social media SEO)-->
     <meta name="twitter:title" content=" Meet Yaounde Grow Together Chamber Of Commerce"/>
-    <meta name="twitter:description" content="We aime at developing businesses in the city of yaounde by...">
+    <meta name="twitter:description" content="We aime at developing businesses in the city of yaounde by promoting local business growth">
     <meta name="twitter:image" content="../chamber/images/hero-large-ch">
     <meta name="twitter:card" content="summary_large_image">
 
@@ -38,11 +38,17 @@
 <body>
     <header>
         <div class="container">
-            <div class="logo"><h2>LOGO</h2></div>
+            <!-- <img src="../chamber/images/logo.webp" alt="Logo" width="" height=""> -->
+            <h1 class="logo">LOGO</h1>
             <div id="name">
                 <h1>Yaounde Grow Together Chamber Of Commerce </h1>
                 <!-- <span class="smaller-text"></span> -->
             </div>
+        </div>
+        <!-- Larger social media icons  -->
+        <div clas="socials-large">
+            <a href=""> <img src="../chamber/images/facebook2.webp" alt="facebook icon"></a>
+            <a href=""> <img src="../chamber/images/linkedin2.webp" alt="linkedin icon"></a>
         </div>
         <nav>
             <ul class="navigation1">
@@ -62,6 +68,11 @@
         <input type="checkbox" id ="checked">
         <span class="slider round"></span>
     </label>
+    
+    <!-- <div clas="socals">
+        <a href=""> <img src="../chamber/images/facebook.webp" alt="facebook icon"></a>
+        <a href=""> <img src="../chamber/images/linkedin.webp" alt="linkedin icon"></a>
+    </div> -->
     </header>
     <nav>
         <ul class="navigation">
@@ -71,7 +82,7 @@
             <li><a href="https://ndikumndifor.github.io/wdd230/chamber/join.html">Join</a></li>
         </ul>
     </nav>
-    <main >
+    <main class="index">
         <!-- A banner that displays on mondays, tuesdays and wednesdays -->
         <div class="banner">
             <div class="banner-content">
@@ -93,42 +104,63 @@
             <a href="#" class="cta">Join the Chamber</a>
         </div> 
         <div class="event">
-            <section class="weather" >
-                <h2>Events</h2>
-                <h3>Something1</h3>
-                <p>This is a paragraph</p>
+            <section class="weather" id="event" >
+                <h2 class="h2-border">Events</h2>
+                <!-- <strong><p></p>Networking For You</strong>
+                <p>Meet your potential today and tomorow partner throug our nrtworking event held monday 8:00pm.</p> -->
             </section>
 
-            <section class="weather">
-                <h2>Weather</h2>
+            <section class="weather" id="forecast">
+                <h2 class="h2-border">Weather</h2>
                 <div class="current-temp">
-                    <img src="#" alt=""  id="icon"> <span id="temperature"></span><span id="description">|</span>
+                    <h3 id="date"></h3>
+                    <img src="#" alt=""  id="icon">
+                    <p id="temperature"></p>
+                    <p id="main"></p>
+                    <p id="description"></p>
+                    
                 </div>
-                <!-- <button>Click for windchill temperature</button> -->
-                <!-- <div class="windchill-value"></div> -->
+
+                <h2 class="forecast-title">3 Days Weather forecast</h2>
+                <div class="forecasted">
+                    
+                </div>
+                
             </section>
         </div>
 
+        <h3 class="spotlights">Member Spotlights</h3>
+
         <div class="advert">
             <section id="first">
-                <h2>Some h2</h2>
+                <h3>Some h2</h3>
                 <p>Advertisment1</p>
             </section>
             <section id="second">
-                <h2>Some h2</h2>
+                <h3>Some h2</h3>
                 <p>Advertisement2</p>
             </section>
             <section id="third">
-                <h2>Some h2</h2>
+                <h3>Some h2</h3>
                 <p>Advertisement3</p>
             </section>
         </div>
     </main>
-    <footer>
-        <p>&copy;2023 | Ndikum .S Ndifor | WDD 230-project | <span id="lastModified"></span></p>
-        <script src="../chamber/scripts/getDate.js"></script>
-        <script src="../chamber/scripts/windchill.js"></script>
-        <script src="../chamber/scripts/temperatureapi.js"></script>
-    </footer>  
+    <footer class="footer">
+        <img src="../chamber/images/logo.webp" alt="Logo image" width="160" height="160">
+        <div class="chamber-name">
+            <h3>Younde Grow Together Chamber of commerce <span class="span-foot">Boulevard Du 20 Mai </span><span class="span-foot">Younde, Cameroon</span></h3>
+        </div>
+        <div class="email">
+            <span class="email">info@yaoundechamber.org</span><span class="email"> +(237) 677889900</span><span class="email"> Location Map</span>
+        </div>
+        <div class="foot">
+            <p class="para-foot">&copy;2023 Yaounde Chamber| <span class="myname">Ndikum Sabastine Ndifor</span> | WDD 230-project | <span id="lastModified"></span></p>
+        </div>
+    </footer>
+    <script src="../chamber/scripts/temperatureapi.js"></script>
+    <script src="../chamber/scripts/getDate.js"></script>
+      
+    <script src="../chamber/scripts/windchill.js"></script>
 </body>
 </html>
