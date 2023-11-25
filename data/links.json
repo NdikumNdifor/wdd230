@@ -152,8 +152,12 @@
                 },
                 {
                     "url" : "index.html",
-                    "title" : "Updating My Home Page With The Current Weather From OpenWeatherMap API"
-                } 
+                    "title" : "Updating My Home Page With The Current Weather From OpenWeatherMap API | "
+                },
+                {
+                    "url" : "chamber/index.html",
+                    "title" : "Current Weather and 3 Day weather Forecast Using Onecall API From OpenWeatherMap"
+                }  
             ]
         }
 
