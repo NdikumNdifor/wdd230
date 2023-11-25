@@ -8,7 +8,7 @@ const cards = document.getElementById("article");
 async function getMembersData() {
     const response = await fetch(listURL);
     const data = await response.json();
-    // console.log(data.members);
+    console.log(data.members);
     displayMembers(data.members);
 }
 getMembersData();
@@ -72,4 +72,8 @@ function showList() {
 	display.classList.add("list");
 	display.classList.remove("grid");
 }
+
+
+
+
 

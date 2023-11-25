@@ -1,6 +1,4 @@
-
 /*----------------- SCRIPT FOR DATE AND HAMBURGER MENU -------------*/
-
 let oLastModif = new Date(document.lastModified);
 document.getElementById("lastModified").innerHTML = `Lastly Modified: ${oLastModif}`;
 
@@ -28,7 +26,6 @@ changeTextAndBackground.addEventListener("change", () => {
 });
 
 
-
 /* -------------- SCRIPT FOR DISCOVER PAGE --------------------*/
 
 // Inserting the last modified date at the footer of the discover page
@@ -44,7 +41,7 @@ let msSinceVisit = 0;
 
 // calculate ms since last visit
 
-if (localStorage.getItem("lastVisitDate") == 0 || null) {
+if (localStorage.getItem("lastVisitDate") === 0 || null) {
     msSinceVisit = 0;
 }
 else {
@@ -54,19 +51,17 @@ else {
 
 //display one of three possible messages based on how many times they have visited
 
-let displayMessage = document.querySelector(".local-storage")
+let displayMessage = document.querySelector(".local-storage");
 
 if (msSinceVisit < 600 ) {
 	displayMessage.textContent = "Welcome! Let us know if you have any questions.";
-} 
-else if (msSinceVisit < 24 * 3600000) {
+} else if (msSinceVisit < 86400000) {
     displayMessage.textContent = "Back so soon! Awesome!";
-}
-else {
+} else {
     // calculate days since last visit
     let numOfDaysSinceVisited = Math.round(msSinceVisit / 84600000);
     if (numOfDaysSinceVisited < 2) {
-        displayMessage.textContent = `You last visited 1 day ago.`;
+        displayMessage.textContent = "You last visited 1 day ago.";
     }
     else {
         displayMessage.textContent = `You last visited ${numOfDaysSinceVisited} days ago.`;
@@ -89,12 +84,6 @@ date.value = `${timestamp}`;
 
 // const baseURL = "https://ndikumndifor.github.io/wdd230/";
 // const listURL = "https://ndikumndifor.github.io/wdd230/chamber/data/members.json";
-
-// // const listURL = "data/members.json";
-// let all = document.querySelector(".main");
-// all.style.backgroundColor = "blue";
-// let para = document.createElement("p")
-// all.append(para);
 
 // const cards = document.getElementById("article");
 
