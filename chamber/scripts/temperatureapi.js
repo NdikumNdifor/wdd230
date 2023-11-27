@@ -77,6 +77,18 @@ function displayForecastResults(data) {
    }
 }
 
+let oLastModif = new Date(document.lastModified);
+document.getElementById("lastModified").innerHTML = `Lastly Modified: ${oLastModif}`;
+
+
+const hamBtn = document.querySelector("#menu");
+const mainNav = document.querySelector(".navigation");
+
+hamBtn.addEventListener("click", () => {
+    hamBtn.classList.toggle("open");
+    mainNav.classList.toggle("open");
+})
+
 
 const baseURL = "https://ndikumndifor.github.io/wdd230/";
 const listURL = "https://ndikumndifor.github.io/wdd230/chamber/data/members.json";
@@ -87,14 +99,16 @@ async function getMembersData() {
    const response = await fetch(listURL);
    const data = await response.json();
    console.log(data.members);
-   displayMembers(data.members);
+   getGoldOrSilverMember(data.members);
 }
 getMembersData();
 
-function getGooldAndSilverMember() {
-   let gold = `${data.members.membershipLevel}`;
-   // let silver = `${date.membershipLevel}`;
-   if(gold == "Gold" || gold == "Silver"){
 
+function getGoldOrSilverMember() {
+   for (i = 0; i < 7; i++){
+      let goldOrSilver = `${data.members[i].membershipLevel}`;
+      if(goldOrSilver == "Gold" || goldOrSilver == "Silver"){
+         console.log(goldOrSilver);
    }
+ }
 }

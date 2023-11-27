@@ -13,6 +13,7 @@ main, h1 {
 }
 table {
   border-bottom: 2px solid #009879;
+  width: auto;
 }
   table,caption  {
     border-collapse: collapse;
