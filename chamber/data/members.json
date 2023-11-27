@@ -4,7 +4,7 @@
             "name" : "APPLE",
             "address" : "Apple Park",
             "phone" : "+1 400-961-1560",
-            "iconUrl" : "../../chamber/data/apple.svg",
+            "iconUrl" : "../../wdd20/chamber/data/rolls-royce1.svg",
             "membershipLevel" : "Gold",
             "website": "https://www.apple.com" 
         },
@@ -13,8 +13,8 @@
             "name" : "ROLL ROYCE",
             "address" : "royce park",
             "phone" : "+1 400-961-1561",
-            "iconUrl" : "../../chamber/data/rolls-royce.svg",
-            "membershipLevel" : "Gold",
+            "iconUrl" : "../../wdd20/chamber/data/rolls-royce1.svg",
+            "membershipLevel" : "Silver",
             "website": "https://www.rolls-roycemotorcars.com"  
         },
 
@@ -22,8 +22,8 @@
             "name" : "BLUE ORIGINE",
             "address" : "Park Avenue",
             "phone" : "+1 400-961-1562",
-            "iconUrl" : "../../chamber/data/blue-origin.svg",
-            "membershipLevel" : "Gold",
+            "iconUrl" : "../../wdd20/chamber/data/rolls-royce1.svg",
+            "membershipLevel" : "Silver",
             "website": "https://www.lockheedmartin.com" 
              
         },
@@ -31,7 +31,7 @@
             "name" : "IBM",
             "address" : "Angel Park",
             "phone" : "+1 400-961-1568",
-            "iconUrl" : "../../chamber/data/ibm.svg",
+            "iconUrl" : "../../chamber/data/ibm1.svg",
             "membershipLevel" : "Gold",
             "website": "https://www.ibm.com"  
         },
@@ -40,8 +40,8 @@
             "name" : "SPACEX",
             "address" : "First Avenue ",
             "phone" : "+1 400-961-1565",
-            "iconUrl" : "../../chamber/data/spaceX.svg",
-            "membershipLevel" : "Gold",
+            "iconUrl" : "../../wdd20/chamber/data/rolls-royce1.svg",
+            "membershipLevel" : "Bronz",
             "website": "https://www.spacex.com"  
         },
 
@@ -49,7 +49,7 @@
             "name" : "BLACK ROCK",
             "address" : " Golden Street",
             "phone" : "+1 800-961-1569",
-            "iconUrl" : "../../chamber/data/blackrock.svg",
+            "iconUrl" : "../../wdd20/chamber/data/rolls-royce1.svg",
             "membershipLevel" : "Bronz",
             "website": "https://www.blackrock.com"  
         },
@@ -58,7 +58,7 @@
             "name" : "NORTHROP GRUMMAN",
             "address" : "Business Road",
             "phone" : "+1 000-961-1569",
-            "iconUrl" : "../../chamber/data/northropGrumman.svg",
+            "iconUrl" : "../../wdd20/chamber/data/rolls-royce1.svg",
             "membershipLevel" : "Bronz",
             "website": "https://www.northropgrumman.com"  
         }
