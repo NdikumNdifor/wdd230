@@ -118,7 +118,7 @@ function getGoldOrSilverMember(data) {
    for (let i = 0; i < 7; i++){
       let goldOrSilver = `${data.members[i].membershipLevel}`;
       if(goldOrSilver == "Gold" || goldOrSilver == "Silver"){
-         let memberwithGoldOrSilver = `${data.members[i].name}`;
+         let memberwithGoldOrSilver = `${goldOrSilver}`;
          arr.push(memberwithGoldOrSilver);
    }
    let randomPick = arr[(Math.floor(Math.random()* (arr.length)))];

@@ -46,21 +46,24 @@
         display: none;
     }
 
-    footer img {
+    footer.footer img {
         grid-column: 1/2;
         grid-row: 1/2;
-        /* padding-left: 4rem; */
+        max-width: 100%;
     }
 
-    footer.footer div h3 {
+    footer.footer div.chamber-name {
         grid-column: 2/3;
         grid-row: 1/2;
         margin: 0  2rem;
+    
     }
 
     div.email {
-        grid-column: 4/5;
+        grid-column: 3/4;
+        /* grid-column: 4/5; */
         grid-row: 1/2;
+
     }
      
     footer div.foot {
@@ -102,16 +105,24 @@
     }
 
     body footer.footer {
-        padding: 4rem 30%;
+        padding: 4rem 25%;
    }
 
    div.chamber-name {
-        width: 300px;
+        max-width: 300px;
+   }
+
+   div.chamber-name h3 {
+    margin-right: 50px;
    }
 
    body footer.footer {
         display: grid;
-        grid-template: auto/1fr 1fr 2fr;
+        grid-template: auto/ 1.6fr 1.4fr 1fr;
+   }
+
+   body .footer img {
+    grid-column: 1/2;
    }
 
 
