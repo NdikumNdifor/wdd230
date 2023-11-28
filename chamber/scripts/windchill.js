@@ -1,4 +1,4 @@
-
+/*------------------- JavaScript For Displaying Banner ---------------------*/
 
 const displayDay = document.querySelector(".banner")
 const close = document.querySelector(".banner-close");

@@ -15,7 +15,6 @@ async function apiFetch() {
       const response = await fetch(url);
       const data = await response.json();
       if (response.ok) {
-         // console.log(data)
          displayCurrentResults(data);
          displayForecastResults(data);
       }else {
@@ -77,8 +76,19 @@ function displayForecastResults(data) {
    }
 }
 
-let oLastModif = new Date(document.lastModified);
+/*--------------- Tracking the Last Modified Date --------------*/
+let oLastModif = new Date(document.lastModified).toDateString();
 document.getElementById("lastModified").innerHTML = `Lastly Modified: ${oLastModif}`;
+
+/*---------------- JS for Toglle switch to modify background ----------------*/
+
+const changeTextAndBackground = document.querySelector("#checked");
+const main = document.querySelector("main");
+    
+changeTextAndBackground.addEventListener("change", () => { 
+    main.style.backgroundColor = changeTextAndBackground.checked === true? "#000": "#FFF"
+    main.style.color = changeTextAndBackground.checked === true? "#FFF": "#000"  
+});
 
 
 const hamBtn = document.querySelector("#menu");
@@ -98,17 +108,22 @@ const spotlightDisplay = document.querySelector("#first");
 async function getMembersData() {
    const response = await fetch(listURL);
    const data = await response.json();
-   console.log(data.members);
-   getGoldOrSilverMember(data.members);
+   getGoldOrSilverMember(data);
 }
 getMembersData();
 
 
-function getGoldOrSilverMember() {
-   for (i = 0; i < 7; i++){
+function getGoldOrSilverMember(data) {
+   let arr = [];
+   for (let i = 0; i < 7; i++){
       let goldOrSilver = `${data.members[i].membershipLevel}`;
       if(goldOrSilver == "Gold" || goldOrSilver == "Silver"){
-         console.log(goldOrSilver);
+         let memberwithGoldOrSilver = `${data.members[i].name}`;
+         arr.push(memberwithGoldOrSilver);
    }
+   let randomPick = arr[(Math.floor(Math.random()* (arr.length)))];
+   let heading4 = document.createElement("h4");
+   heading4.innerHTML = `${randomPick}`;
+   spotlightDisplay.appendChild(heading4);
  }
 }

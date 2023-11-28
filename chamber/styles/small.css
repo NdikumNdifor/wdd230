@@ -30,7 +30,6 @@ header {
 
 #name h1 {
     font-size: 10px;
-    line-height: px;
 }
 
 #name {
@@ -60,6 +59,25 @@ main p {
 
 .event {
     padding: 1rem 0.5rem;
+}
+
+.event h4 {
+    margin-top: 0.5rem;
+    color: navy;
+    font-size: 1.2rem;
+}
+
+.spotlight-section  a {
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+img.network {
+    display: block;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border-radius: 8px;
 }
 
 .event section{
@@ -101,7 +119,7 @@ main p {
 }
 
 .forecast-title {
-    color: #FFF;
+    color: beige;
     margin-top: 2rem;
     text-align: center
 }
@@ -125,7 +143,7 @@ main p {
 
 #forecast {
     background-image: url(../../chamber/images/weather.webp);
-    color: #FFF;
+    color: beige;
     background-position: center;
     background-size: auto;  
 }
@@ -134,7 +152,7 @@ footer {
     display: grid;
     grid-template: auto/ 1fr 2fr;
     background-color: #3C4142;
-    color: #FFF;
+    color: beige;
     row-gap: 30px;
     padding: 2rem 2rem; 
 }
@@ -161,8 +179,6 @@ span.span-foot {
 .foot {
     grid-column: 1/3;
     font-size: 0.8rem;
-    font-weight: 0;
-    border-top: 1px solid;
     text-align: center;
     padding: 0 3rem;
 }
@@ -173,6 +189,10 @@ span.span-foot {
 
 .para-foot {
     margin-top: 25px;
+    border-top: 1px solid ;
+    color: beige;
+    padding-top: 2rem;
+    font-size: larger;
 }
 
 img {
@@ -218,7 +238,6 @@ footer.email {
     text-decoration: none;
     font-size: 1.7rem;
     background-color: rgba(0, 0, 0, 0.2);
-    padding: 0 7px;
     border: 0.1px solid white;
     position: absolute;
     right:1rem ;
@@ -633,7 +652,7 @@ h1 {
 
 /*------------------- Syling For the Banner --------------------------*/
 .banner {
-    background-color: #009579;
+    background-color: #4B0082;
     
 }
 
