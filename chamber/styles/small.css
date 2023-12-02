@@ -653,7 +653,7 @@ h1 {
 
 /*------------------- Syling For the Banner --------------------------*/
 .banner {
-    background-color: #4B0082;
+    background: linear-gradient(to right,#11998E 60%, #38EF7D);
     
 }
 
