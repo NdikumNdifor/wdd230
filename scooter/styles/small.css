@@ -138,6 +138,22 @@ img {
     margin-top: 2rem;
 }
 
+/************* Styling for weather section ************/
+
+.weather-section {
+    text-align: center;
+    margin: 2rem 0.5rem;
+    border: 1px solid #eee;
+    padding: 1rem 0.5rem;
+    border-radius: 8px;
+    background: linear-gradient(to bottom left, #FF512F, #DD2476 80%);
+    color: beige;
+}
+
+.weather {
+    margin-top: 2rem;
+}
+
 
 
 
