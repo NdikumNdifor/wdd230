@@ -124,7 +124,18 @@ img {
     margin: 0 auto;
     padding:1rem 0.5rem;
     margin-top: 30px;
+}
 
+/************* styling For The Explore Section ************/
+.explore-section {
+    margin: 2rem 1rem 0 1rem;
+    display: grid;
+    text-align: center;
+
+}
+
+.explore-section h3, .explore-section p, .image-box {
+    margin-top: 2rem;
 }
 
 
