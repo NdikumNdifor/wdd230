@@ -11,6 +11,87 @@ body {
     background-color: #FFFFFF;
 }
 
+/*-------------- STYLING FOR THE HOME PAGE ------------------*/
+
+/******* Styling The Header **********/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0.6rem;
+    border-bottom: 1px solid ;
+}
+
+nav ul, nav li, header li {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li a, .contact {
+    text-decoration: none;
+}
+
+#menu {
+    text-decoration: none;
+    margin: .2rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #555;
+}
+
+.primaryNav {
+    display: none;
+}
+
+/*------------ STYLING FOR RESPONSIVE NAV AND MENU --------------*/
+
+#menu::before {
+    content: "☰";
+}
+
+.navigation1 li {
+    display: none;
+}
+
+.navigation1 li a {
+    display: block;
+    font-size: 1.1rem;
+}
+
+#menu.open::before {
+    content: "X";
+}
+
+.open.navigation1 {
+    padding: 2rem 1rem;
+}
+
+.open li {
+    display: block;
+    padding: 1rem;   
+}
+
+.open a {
+    display: block;
+}
+
+ul.navigation1 li  .red {
+    background-color: red;
+}
+
+.open.navigation1 .contact1 {
+    background-color: black;
+}
+
+.open.navigation1 li.contact a {
+    background-color: black;
+}
+
+
+
+
 
 
 
