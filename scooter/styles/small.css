@@ -19,7 +19,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 0.6rem;
+    /* margin: 0 0.6rem; */
+    padding: 0 0.6rem;
     border-bottom: 1px solid ;
 }
 
@@ -45,7 +46,7 @@ nav ul li a, .contact {
     display: none;
 }
 
-/*------------ STYLING FOR RESPONSIVE NAV AND MENU --------------*/
+/*------------ Styling For Rensponsive Menu --------------*/
 
 #menu::before {
     content: "☰";
@@ -88,6 +89,36 @@ ul.navigation1 li  .red {
 .open.navigation1 li.contact a {
     background-color: black;
 }
+
+/************ Styling The Hero Section ***********/
+.hero-section {
+    display: grid;
+    margin-top: 1rem;
+    padding: 0 0.8rem;
+    text-align: center;
+}
+
+.hero-section img  {
+    margin-top: 1.5rem;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+.cta {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    max-width: 150px;
+    margin: 0 auto;
+    padding:1rem 0.5rem;
+    margin-top: 30px;
+
+}
+
 
 
 
