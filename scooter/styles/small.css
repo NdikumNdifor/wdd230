@@ -19,7 +19,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* margin: 0 0.6rem; */
     padding: 0 0.6rem;
     border-bottom: 1px solid ;
 }
@@ -123,7 +122,7 @@ img {
     max-width: 150px;
     margin: 0 auto;
     padding:1rem 0.5rem;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 /************* styling For The Explore Section ************/
@@ -152,6 +151,15 @@ img {
 }
 
 .weather {
+    margin-top: 2rem;
+}
+
+/*********** Styling For The Footer ******************/
+
+.foot {
+    text-align: center;
+    padding: 4rem;
+    background-color: #eee;
     margin-top: 2rem;
 }
 
