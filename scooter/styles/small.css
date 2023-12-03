@@ -148,6 +148,7 @@ img {
     border-radius: 8px;
     background: linear-gradient(to bottom left, #FF512F, #DD2476 80%);
     color: beige;
+    display: grid;
 }
 
 .weather {
