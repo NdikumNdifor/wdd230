@@ -164,6 +164,32 @@ img {
 }
 
 
+/*------------------------ STYLING FOR RENTAL PAGE -----------------------------*/
+
+
+/************ Styling for option section **************/
+.option-section {
+    text-align: center;
+}
+
+.types {
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+h1, h2 {
+    text-align: center;
+}
+.types h3 {
+    padding-bottom: 10px;
+}
+
+/*********** Styling for the agree section **************/
+.agree-section {
+    padding: 0 0.5rem;
+}
+
+
 
 
 

@@ -84,6 +84,7 @@ function displayForecastResults(data) {
    }
 }
 
-/********** JavaScrip For Current Date and Time *********** */
+/********** JavaScrip For Current Date and Time ************/
+
 let oLastModif = new Date(document.lastModified);
 document.getElementById("lastlyModified").innerHTML = `Lastly Modified: ${oLastModif}`;
