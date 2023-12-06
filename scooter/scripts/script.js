@@ -95,12 +95,20 @@ document.getElementById("lastlyModified").innerHTML = `Lastly Modified: ${oLastM
 const path = "../../scooter/data/prices.json";
 
 async function populateTableBody(url, table) {
+   const tableHead = table.querySelector("thead");
    const tableBody = table.querySelector("tbody");
    const response = await fetch(url);
-   const { prices } = await response.json();
+   const { headers, prices } = await response.json();
 
    // Clear table
    tableBody.innerHTML = "";
+
+   // populate the second row of the head
+   for (const headerText of headers){
+      const headerCells = document.createElement("th");
+      headerCells.textContent = headerText;
+      tableHead.querySelector("#second-row-header").appendChild(headerCells)
+   }
 
    // Populating the body
    for (const row of prices) {
