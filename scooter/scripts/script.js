@@ -88,3 +88,34 @@ function displayForecastResults(data) {
 
 let oLastModif = new Date(document.lastModified);
 document.getElementById("lastlyModified").innerHTML = `Lastly Modified: ${oLastModif}`;
+
+
+/************** JavaSript For Table ***************/
+
+const path = "../../scooter/data/prices.json";
+
+async function populateTableBody(url, table) {
+   const tableBody = table.querySelector("tbody");
+   const response = await fetch(url);
+   const { prices } = await response.json();
+
+   // Clear table
+   tableBody.innerHTML = "";
+
+   // Populating the body
+   for (const row of prices) {
+      const rowElement = document.createElement("tr");
+
+      for (const cellText of row) {
+         const cellElement = document.createElement("td");
+
+         cellElement.textContent = cellText;
+
+         rowElement.appendChild(cellElement); 
+      }
+
+      tableBody.appendChild(rowElement);
+   }
+}
+
+populateTableBody(path, document.querySelector("table"));

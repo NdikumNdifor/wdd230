@@ -111,6 +111,7 @@ ul.navigation1 li  .red {
 
 img {
     max-width: 100%;
+    height: auto;
 }
 
 .cta {
@@ -181,7 +182,7 @@ img {
     padding-left: 70px;
 }
 
-h1, h2 {
+.container-rentals h1, .container-rentals h2 {
     text-align: center;
     padding-top: 1rem;
 }
@@ -208,6 +209,16 @@ h1, h2 {
     margin-inline-start: 25px;
     margin-top: 12px;
     line-height: 25px;
+}
+
+/************ Styling For The Table *********/
+table, tr, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+td {
+    text-align: center;
 }
 
 

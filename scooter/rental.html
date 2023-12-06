@@ -48,45 +48,63 @@
             <li class="contact1"><a href="#">Rent Here</a></li>
         </ul>
     </nav>
-    <main class="container">
+    <main class="container-rentals">
         <h1>Rent A Vehicule To Tour!</h1>
         <h2>Choose Your Rental Option</h2>
         <div class="option-section">
-            <div class="types">
+            <section class="types">
                 <img src="../scooter/images/vespa.webp" alt="">
                 <h3>Honda Motor Scooters</h3>
-                <p>Honda Metropolitan (49cc) - 1 person</p>
-                <p>Honda Dio (110cc) - 2 person</p>
-                <p>Honda PCX150 (149cc) - 2 person</p>
-            </div>
-            <div class="types">
+                <ul>
+                    <li>Honda Metropolitan (49cc) - 1 person</li>
+                    <li>Honda Dio (110cc) - 2 person</li>
+                    <li>Honda PCX150 (149cc) - 2 person</li>
+                </ul>
+            </section>
+
+            <section class="types">
                 <img src="../scooter/images/atv.webp" alt="">
                 <h3>Side-by-Side ATVs</h3>
-                <p>Honda Pioneer 1000 - 4 person</p>
-            </div>
-            <div class="types">
+                <ul>
+                    <li>Honda Pioneer 1000 - 4 person</li>
+                </ul>
+            </section>
+
+            <section class="types">
                 <img src="../scooter/images/jeep.webp" alt="">
                 <h3>Jeeps</h3>
-                <p>Jeep Wrangler - 4 door manuel with A/C - 5 person</p>
-                <p>Jeep Wrangler - 2 door - open air - manuel - 4 person</p>
-            </div>
+                <ul>
+                    <li>Jeep Wrangler - 4 door manuel with A/C - 5 person</li>
+                    <li>Jeep Wrangler - 2 door - open air - manuel - 4 person</li>
+                </ul>
+            </section>
         </div>
 
-        <div class="agree-section">
-            <h2>Rental Agreement and services</h2>
-            <ul>
-                <li> A $50 security deposit is required to confirm reservations.</li>
-                <li>A valid drivers license is required in hand at the time of rental.</li>
-                <li>No one under the age of 12 years of age are allowed to ride on the scooters.</li>
-                <li>Fuel charge is not included.</li>
-                <li>Unlimited mileage.</li>
-                <li>Liability insurance is included.</li>
-                <li>Damage insurance is available for purchase.</li>
-                <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
-                <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.</li>
-                <li>Rentals may be returned to either physical location.</li>
-            </ul>
-        </div>
+        <!-- HTML table displaying data stored in a json file -->
+        <table>
+            <figcaption>Pricing</figcaption>
+            <thead>
+                <tr>
+                    <th colspan="2">&nbsp;</th>
+                    <th colspan="2">Reservation</th>
+                    <!-- <th>&nbsp;</th> -->
+                    <th colspan="2">Walk-In</th>
+                    <!-- <th>&nbsp;</th> -->
+                </tr>
+                <tr>
+                    <th>Rental Type</th>
+                    <th>Max. Person</th>
+                    <th>Half Day (3hrs)</th>
+                    <th>Full Day</th>
+                    <th>Half Day (3hrs)</th>
+                    <th>Full Day</th>
+                </tr>
+                <tbody>
+
+                </tbody>
+            </thead>
+        </table>
+
 
     </main>
     <footer class="foot">
