@@ -195,6 +195,17 @@ img {
     margin-inline-start: 25px;
 }
 
+
+/************ Styling For The Table *********/
+table, tr, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+td {
+    text-align: center;
+}
+
 /*********** Styling for the agree section **************/
 
 .agree-section {
@@ -211,13 +222,7 @@ img {
     line-height: 25px;
 }
 
-/************ Styling For The Table *********/
-table, tr, th, td {
-    border-collapse: collapse;
-    border: 1px solid black;
-}
-
-td {
+.container-reserv h1 {
     text-align: center;
 }
 
