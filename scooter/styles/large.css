@@ -10,7 +10,6 @@
     }
 
     /************** styling The explore section **********/
-
     main .explore-section {
         grid-template: auto/ 1fr 1fr 1fr;
     }
@@ -46,4 +45,27 @@
         grid-column: 3/4;
         grid-row: 3/4;
     }
+
+
+    /********** Styling For The Option section ********/
+    main .option-section {
+        grid-template: auto/ 1fr 1fr 1fr;
+        max-width: 760px;
+        
+    }
+
+    main .option-section, main .container-rentals h2 {
+        margin-top: 2rem;
+    }
+
+    main table {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    table, tr, th, td {
+        padding: 10px 20px;
+    }
+
 }

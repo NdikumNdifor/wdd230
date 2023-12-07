@@ -168,6 +168,7 @@ img {
 
 /************ Styling for option section **************/
 .option-section {
+    display: grid;
     padding:25px 0;
     max-width: 250px;
     margin: 0 auto;
@@ -199,11 +200,34 @@ img {
 /************ Styling For The Table *********/
 table, tr, th, td {
     border-collapse: collapse;
-    border: 1px solid black;
+    border: 1px solid grey;
+    padding: 2px 5px;
+}
+
+table {
+    margin: 0 1rem;
+    background-color:#323232; 
+    color: aliceblue;
+}
+
+caption {
+    padding:1rem 0;
+    background-color: hsl(0, 0%, 0%);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 td {
     text-align: center;
+}
+
+thead tr {
+    background: hsl(0 0% 0% / 0.5);
+}
+
+tbody tr:nth-of-type(even) {
+    background: hsl(0 0% 0% / 0.1);
 }
 
 /*********** Styling for the agree section **************/
