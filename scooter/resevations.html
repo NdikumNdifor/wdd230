@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuzumel Scooter Rentage Company</title>
+    <meta name="description" content="Rent A Scooter For Nothing To Explore The Wanders The Carrebean Iland Of Cuzumel Has To Offer In Its Entirty"/>
+    <meta name="author" content="Ndikum Sabastine Ndifor"/>
+
+    <!--Below are the Open Graph meta properties to enhance social media optimization (Social media SEO)-->
+    <meta property="og:title" content="A Look To My Portal Home Page Exploring Web Frontend Development I" />
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content=""/>
+    <meta property="og:url" content=""/>
+    
+
+    <!--Linking the favicon-->
+    <link rel="icon" href="favicon.ico">
+
+    <!-- Linking the css files -->
+    <link rel="stylesheet" href="../scooter/styles/normalize.css">
+    <link rel="stylesheet" href="../scooter/styles/small.css">
+    <link rel="stylesheet" href="../scooter/styles/medium.css">
+    <link rel="stylesheet" href="../scooter/styles/large.css">
+    
+</head>
+<body>
+    <header>
+        <div>
+            <h1>LOGO</h1>
+        </div>
+        <nav class="primaryNav">
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Rentals</a></li>
+                <li><a href="#">Reservation</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <li><a href="#" class="contact">Reservations</a></li>
+        </nav>
+        <a id="menu" href="#"></a>
+    </header>
+    <nav>
+        <ul class="navigation1">
+            <li class="active"><a href="#" class="red">Home</a></li>
+            <li><a href="#" class="red">Rentals</a></li>
+            <li><a href="#" class="red">Reservation</a></li>
+            <li><a href="#" class="red">Contact</a></li>
+            <li class="contact1"><a href="#">Rent Here</a></li>
+        </ul>
+    </nav>
+    <main class="container-reserv">
+        <h1>Make Your Reservations!</h1>
+        <div class="agree-section">
+            <h2>Rental Agreement and services</h2>
+            <ul>
+                <li> A $50 security deposit is required to confirm reservations.</li>
+                <li>A valid drivers license is required in hand at the time of rental.</li>
+                <li>No one under the age of 12 years of age are allowed to ride on the scooters.</li>
+                <li>Fuel charge is not included.</li>
+                <li>Unlimited mileage.</li>
+                <li>Liability insurance is included.</li>
+                <li>Damage insurance is available for purchase.</li>
+                <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
+                <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.</li>
+                <li>Rentals may be returned to either physical location.</li>
+            </ul>
+        </div>
+
+        <form action="thanks.html" method="get">
+            <fieldset>
+                <legend>Reservation Information</legend>
+                <label for="">First name* <input type="text" id="fname" name="fname" required></label>
+                <label for="">Last Name* <input type="text" id="lname" name="lname" required></label>
+                <label for="">Email* <input type="email" id="mail" name="mail" placeholder="someone@gmail.com" required></label>
+                <label for="">Telephone* <input type="tel" id="tel" name="tel" placeholder="1234567890" required></label>
+
+                <!-- Selection for rental type -->
+                <label for="">Rental type
+                    <select name="rentals" id="rentals">
+                        <option value="select">Please Select</option>
+                        <option value="metro">~Honda Metro Scooter</option>
+                        <option value="dio">~Honda Dio Scooter</option>
+                        <option value="pcx150">~Honda PCX150 Scooter</option>
+                        <option value="pioneer">Honda Pioneer ATV</option>
+                        <option value="wrangler">Jeep Wrangler - 4 door with a/c</option>
+                        <option value="jeep">Jeep Wrangler - 2 door</option>
+                    </select>
+                </label>
+
+                <!-- Selection for rental number -->
+                <label for="">Rental Number
+                    <select name="number" id="number">
+                        <option value="">Please select</option>
+                        <option value="one">1</option>
+                        <option value="two">2</option>
+                        <option value="three">4</option>
+                        <option value="five">5</option>
+                    </select>
+                </label>
+
+                <label for="">Number* <input type="number" id="numb" name="numb" placeholder="0"></label>
+                <label class="top">Date* <input type="date" id="date" name="date" required></label>
+            </fieldset>
+            <label class="top"><input type="hidden" id="period" name="period" value=""></label>
+            <input type="submit" value="Make your Reservation" class="submitBtn">
+        </form>
+    </main>
+    <footer class="foot">
+        <p>&copy;2023 Scooter Rental Website | Ndikum Sabastine Ndifor | <span id="lastlyModified"></span></p>
+    </footer>
+    <script src="../scooter/scripts/script.js"></script>
+</body>
+</html>
