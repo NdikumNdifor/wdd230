@@ -6,7 +6,8 @@
 }
 
 body {
-
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Oxygen', sans-serif; */
     color: #323232;
     background-color: #FFFFFF;
 }
@@ -230,6 +231,9 @@ tbody tr:nth-of-type(even) {
     background: hsl(0 0% 0% / 0.1);
 }
 
+
+/*----------------------- STYLING FOR THE RESERVATION PAGE ------------------------*/
+
 /*********** Styling for the agree section **************/
 
 .agree-section {
@@ -248,6 +252,37 @@ tbody tr:nth-of-type(even) {
 
 .container-reserv h1 {
     text-align: center;
+}
+
+
+/*--------------------- STYLING FOR THE CONTACT PAGE -----------------------*/
+
+.contact-header {
+    background: #323232;
+    color: #FFFFFF;
+}
+
+.contact-header h1 {
+    padding: 3rem 0;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.contact-info {
+    background-color: #FFFFFF;
+    color: #323232;
+}
+
+.contact-info h2 {
+    padding-top: 2rem;
+}
+
+.contact-info div span {
+    font-size: 1.3rem;
+}
+
+.contact-info div {
+    padding-top: 1.5rem;
 }
 
 
