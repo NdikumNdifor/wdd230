@@ -257,12 +257,18 @@ tbody tr:nth-of-type(even) {
 
 /*--------------------- STYLING FOR THE CONTACT PAGE -----------------------*/
 
-.contact-header {
+/*********** Styling For the Container contact section ***********/
+.container-contact {
+    margin: 0 0.5rem;
+}
+
+/************** Styling For the contact section ****************/
+.contact-section {
     background: #323232;
     color: #FFFFFF;
 }
 
-.contact-header h1 {
+.contact-section h1 {
     padding: 3rem 0;
     font-size: 3rem;
     text-align: center;
@@ -271,6 +277,7 @@ tbody tr:nth-of-type(even) {
 .contact-info {
     background-color: #FFFFFF;
     color: #323232;
+    padding: 2rem 0.5rem;
 }
 
 .contact-info h2 {
@@ -278,12 +285,122 @@ tbody tr:nth-of-type(even) {
 }
 
 .contact-info div span {
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .contact-info div {
-    padding-top: 1.5rem;
+    padding-top: 1rem;
 }
+
+.contact-us {
+    width: 100%;
+    display: flex;
+    align-items: center; 
+}
+
+.contact-us span {
+    margin: 0 5px;
+}
+
+/*************** styling For The Reservation form ***************/
+
+form fieldset {
+    border: 1px solid #153243;
+    border-radius: 8px;
+    margin: 2rem 2% 0 2% ;
+    padding: 0.5rem 0;
+}
+
+form fieldset legend {
+    margin: 0 2rem;
+    padding: 0 1rem;
+    /* font-size: 1.2rem; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form label.top {
+    display: block;
+    margin-top: 1rem ;
+    padding: 0 0.5rem;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form label.top input, form label.top select{
+    display: block;
+    padding: 0.75rem 1rem;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 70%;
+    border: 1px solid #FF9900; 
+}
+
+form div  {
+    margin: 2rem 2% 0 2% ;
+}
+form div label.text-area textarea  {
+    display: block;
+    padding: 0.75rem 1rem;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 70%;
+    border: 1px solid #153243;
+    font-size: 1.1rem;
+}
+
+form .submitBtn  {
+    margin: 0 0 0.5rem 2%;
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    background-color: #FF9900;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: 6px solid rgb(230, 95, 95)  
+}
+
+form label.top input:required:valid {
+    border-left: 6px solid #21f360;
+}
+
+/*********** Styling For The contact Form **************/
+form label.top1 {
+    display: block;
+    margin-top: 1rem ;
+    padding: 0 0.5rem;
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form label.top1 input{
+    display: block;
+    padding: 0.75rem 0.9rem;
+    border-radius: 2px;
+    width: 100%;
+    max-width: 70%;
+    border: 1px solid #FF9900; 
+}
+
+.map {
+    width:100%;
+}
+
+iframe {
+    width: 100%;
+    /* height: auto; */
+}
+
+#submit1 {
+    margin-top: 2rem;
+}
+
+
+
+
+
 
 
 
