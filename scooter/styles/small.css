@@ -108,6 +108,7 @@ ul.navigation1 li  .red {
 
 .hero-section img  {
     margin-top: 1.5rem;
+    border-radius: 0 0 10px 10px;
 }
 
 img {
