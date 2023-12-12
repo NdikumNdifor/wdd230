@@ -6,16 +6,18 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    /* font-family: 'Oxygen', sans-serif; */
+    
     color: #323232;
     background-color: #FFFFFF;
 }
 
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif; 
+} 
+
 /*-------------- STYLING FOR THE HOME PAGE ------------------*/
 
 /******* Styling The Header **********/
-
 header {
     display: flex;
     justify-content: space-between;
@@ -31,6 +33,11 @@ nav ul, nav li, header li {
 
 nav ul li a, .contact {
     text-decoration: none;
+    color: #212121;
+}
+
+.active a {
+    border-bottom: 1px solid black;
 }
 
 #menu {
@@ -52,6 +59,12 @@ nav ul li a, .contact {
 
 .navigation a {
     padding-right:  0.7rem;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 0.5rem;
 }
 
 /*------------ Styling For Rensponsive Menu --------------*/
@@ -167,7 +180,6 @@ img {
 
 /*------------------------ STYLING FOR RENTAL PAGE -----------------------------*/
 
-
 /************ Styling for option section **************/
 .option-section {
     display: grid;
@@ -207,7 +219,8 @@ table, tr, th, td {
 }
 
 table {
-    margin: 0 1rem;
+    max-width: 960px;
+    margin: 0 auto;
     background-color:#323232; 
     color: aliceblue;
 }

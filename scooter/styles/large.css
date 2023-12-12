@@ -2,13 +2,6 @@
 
     /*----------------- STYLING FOR HOME PAGE ----------------*/
 
-
-    /************ Styling The main section ************/
-    main {
-        max-width: 1000px;
-        margin: 0 auto;
-    }
-
     /************** styling The explore section **********/
     main .explore-section {
         grid-template: auto/ 1fr 1fr 1fr;
@@ -46,26 +39,19 @@
         grid-row: 3/4;
     }
 
+    /*-------------------- STYLING FOR THE RENTAL PAGE -----------------*/
 
     /********** Styling For The Option section ********/
     main .option-section {
         grid-template: auto/ 1fr 1fr 1fr;
-        max-width: 760px;
-        
+        max-width: 860px;   
     }
 
     main .option-section, main .container-rentals h2 {
-        margin-top: 2rem;
+        margin-top: 3rem;
     }
 
-    main table {
-        max-width: 760px;
-        margin: 0 auto;
-        padding: 0;
+    body main table {
+        width: 860px;
     }
-
-    table, tr, th, td {
-        padding: 10px 20px;
-    }
-
 }
