@@ -92,7 +92,7 @@ document.getElementById("lastlyModified").innerHTML = `Lastly Modified: ${oLastM
 
 /************** JavaSript For Table ***************/
 
-const path = "../../scooter/data/prices.json";
+const path = "https://ndikumndifor.github.io/wdd230/scooter/data/prices.json";
 
 async function populateTableBody(url, table) {
    const tableHead = table.querySelector("thead");
