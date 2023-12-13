@@ -50,35 +50,45 @@
             <li><a href="https://ndikumndifor.github.io/wdd230/scooter/rental.html" class="red">Rentals</a></li>
             <li><a href="https://ndikumndifor.github.io/wdd230/scooter/reservations.html" class="red">Reservation</a></li>
             <li><a href="https://ndikumndifor.github.io/wdd230/scooter/contact.html" class="red">Contact</a></li>
-            <li class="contact1"><a href="https://ndikumndifor.github.io/wdd230/scooter/contact.html">Contact Us</a></li>
+            <!-- <li class="contact1"><a href="https://ndikumndifor.github.io/wdd230/scooter/contact.html">Contact Us</a></li> -->
         </ul>
     </nav>
     <main class="container-contact">
         <div class="contact-section">
             <h1>Contact Us</h1>
-            <div class="contact-info">
-                <div class="contact-us"><img src="../scooter/images/telephone.webp" alt="pnone "> <span>+555 666 777 888</span></div>
-                <div class="contact-us"><img src="../scooter/images/email.webp" alt="Email icon"> <span>contact@scooterrental.com</span></div>
-                <div class="contact-us"><img src="../scooter/images/whatsapp.webp" alt="Website icon"> <span>WhatsApp</span></div>  
-                <div class="contact-us"><img src="../scooter/images/web.webp" alt="Website icon"> <span>www.scooterwebsite.com</span></div>  
-            </div>
         </div>
+
+            <div class="contact-container">
+
+                <!-- contact icon -->
+                <div class="contact-info">
+                    <div class="contact-us"><img src="../scooter/images/telephone.webp" alt="pnone "> <span>+555 666 777 888</span></div>
+                    <div class="contact-us"><img src="../scooter/images/email.webp" alt="Email icon"> <span>contact@scooterrental.com</span></div>
+                    <div class="contact-us"><img src="../scooter/images/whatsapp.webp" alt="Website icon"> <span>WhatsApp</span></div>  
+                    <div class="contact-us"><img src="../scooter/images/web.webp" alt="Website icon"> <span>www.scooterwebsite.com</span></div>  
+                </div>
+
+                <!-- contact form -->
+                <form action="confirm.html" method="get" class="form-contact">
+                    <fieldset>
+                        <legend>Let's Talk</legend>
+                        <label class="top1" for="name">Username* <input type="text"></label>
+                        <label class="top1" for="mail">Email* <input type="text"></label>
+                    </fieldset>
+        s
+                    <div class="comment">
+                        <label class="text-area" for="comment">Comment:<textarea name="comment" id="comment" cols="250" rows="5">Leave a comment</textarea></label>
+                    </div>
+                    <input type="submit" id="submit1" name="submit" value="Send" class="submitBtn">
+                </form>
+
+            </div>
+            
+        
         <div class="map">
             <iframe src="https://www.google.com/maps/d/embed?mid=1h9S0IX3lISPr3ZEp0R6A5FmCsaGYlXU&ehbc=2E312F&noprof=1" width="800" height="480"></iframe>
         </div>
-
-        <form action="confirm.html" method="get">
-            <fieldset>
-                <legend>Let's Talk</legend>
-                <label class="top1" for="name">Username* <input type="text"></label>
-                <label class="top1" for="mail">Email* <input type="text"></label>
-            </fieldset>
-
-            <div class="comment">
-                <label class="text-area" for="comment">Comment:<textarea name="comment" id="comment" cols="250" rows="10">Leave a comment</textarea></label>
-            </div>
-            <input type="submit" id="submit1" name="submit" value="Send" class="submitBtn">
-        </form>
+        
     </main>
     <footer class="foot">
         <p>&copy;2023 Scooter Rental Website | Ndikum Sabastine Ndifor | <span id="lastlyModified"></span></p>
