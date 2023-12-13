@@ -6,9 +6,8 @@
 }
 
 body {
-    
     color: #323232;
-    background-color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1, h2, h3 {
@@ -80,6 +79,16 @@ main {
 .navigation1 li a {
     display: block;
     font-size: 1.1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #212121;
+    
+}
+
+.navigation1 li a:hover {
+    background: white;
+    padding: 10px;
+
 }
 
 #menu.open::before {
@@ -88,28 +97,30 @@ main {
 
 .open.navigation1 {
     padding: 2rem 1rem;
+    background-color: #eee;
+    height: 100vh;
 }
 
 .open li {
     display: block;
-    padding: 1rem;   
+    padding: 1rem;
 }
 
 .open a {
     display: block;
 }
 
-ul.navigation1 li  .red {
+/* ul.navigation1 li  .red {
     background-color: red;
-}
+} */
 
 .open.navigation1 .contact1 {
     background-color: black;
 }
 
-.open.navigation1 li.contact a {
+/* .open.navigation1 li.contact a {
     background-color: black;
-}
+} */
 
 /************ Styling The Hero Section ***********/
 .hero-section {
@@ -134,6 +145,7 @@ img {
     text-align: center;
     text-decoration: none;
     background-color: black;
+    color: antiquewhite;
     max-width: 150px;
     margin: 0 auto;
     padding:1rem 0.5rem;
@@ -142,13 +154,19 @@ img {
 
 /************* styling For The Explore Section ************/
 .explore-section {
-    margin: 2rem 1rem 0 1rem;
+    margin: 4rem 1rem 0 1rem;
     display: grid;
     text-align: center;
+    row-gap: 1rem;
 }
 
+
 .explore-section h3, .explore-section p, .image-box {
-    margin-top: 2rem;
+    margin: 1rem 1rem 0 1rem;
+}
+
+.explore-section img {
+    margin-top: 0.5rem;
 }
 
 /************* Styling for weather section ************/
@@ -268,6 +286,15 @@ tbody tr:nth-of-type(even) {
     text-align: center;
 }
 
+.reserve {
+    margin-top: 3rem;
+    background-color: #eeee;
+}
+
+.reserve h4 {
+    padding: 1rem 0 0 1rem;
+}
+
 
 /*--------------------- STYLING FOR THE CONTACT PAGE -----------------------*/
 
@@ -319,11 +346,16 @@ tbody tr:nth-of-type(even) {
 
 /*************** styling For The Reservation form ***************/
 
+
 form fieldset {
     border: 1px solid #153243;
     border-radius: 8px;
-    margin: 2rem 2% 0 2% ;
+    margin: 1rem 2% 0 2% ;
     padding: 0.5rem 0;
+}
+
+.field {
+    margin-top: 2rem;
 }
 
 form fieldset legend {
@@ -348,6 +380,13 @@ form label.top input, form label.top select{
     width: 100%;
     max-width: 70%;
     border: 1px solid #FF9900; 
+}
+
+.sbs {
+    display: block;
+    margin: 0 0.5rem;
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
 }
 
 form div  {
@@ -439,7 +478,9 @@ iframe {
 }
 
 #submit1 {
-    margin-top: 2rem;
+    padding: 0.8rem ;
+    margin-top: 1rem;
+    max-width: 7rem;
 }
 
 
