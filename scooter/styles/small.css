@@ -35,10 +35,6 @@ nav ul li a, .contact {
     color: #212121;
 }
 
-.active a {
-    border-bottom: 1px solid black;
-}
-
 #menu {
     text-decoration: none;
     margin: .2rem 2vw;
@@ -483,6 +479,16 @@ iframe {
     max-width: 7rem;
 }
 
+/*------------ STYLING FOR LINK INDICATOR ------------------*/
+/* a:is(link, :active, :visited).active {
+    color: white;
+    background-color: black;
+} */
+
+.nav-link[aria-current="page"] {
+    text-decoration: underline wavy #f8c348 0.1rem;
+    text-underline-offset: 0.5rem;
+}
 
 
 
