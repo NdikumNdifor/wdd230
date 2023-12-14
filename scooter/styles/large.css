@@ -2,6 +2,14 @@
 
     /*----------------- STYLING FOR HOME PAGE ----------------*/
 
+    /********** Styling The nav links ***********/
+
+    ul.navigation a {
+        margin: 20px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
     /************** styling The explore section **********/
     main .explore-section {
         grid-template: auto/ 1fr 1fr 1fr;

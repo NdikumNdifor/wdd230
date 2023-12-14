@@ -60,7 +60,8 @@ nav ul li a, .contact {
 }
 
 .navigation a {
-    padding-right:  0.7rem;
+    margin:  0.3rem;
+    padding: 5px;
 }
 
 main {
@@ -499,14 +500,10 @@ iframe {
 
 /*------------ STYLING FOR LINK INDICATOR ------------------*/
 nav a:is(:link, :active, :visited).active {
-    color: white;
-    background-color: black;
+    /* color: white;
+    background-color: black; */
+    border-top: 3px solid navy;
 }
-
-/* .nav-link[aria-current="page"] {
-    text-decoration: underline wavy #f8c348 0.1rem;
-    text-underline-offset: 0.5rem;
-} */
 
 /*---------------- STYLING FOR THE THANK YOU PAGE ----------------*/
 .thanks-container {
