@@ -65,7 +65,7 @@ function displayCurrentResults(data) {
 
 // A function that returns a 1 day weather forecast
 function displayForecastResults(data) {
-   for (let i = 1; i < 2; i++){
+   for (let i = 1; i < 3; i++){
       
       let dtfore = new Date(data.daily[i].dt * 1000).toDateString();
       // let sr = new Date(data.sunrise * 1000);
