@@ -129,16 +129,11 @@ populateTableBody(path, document.querySelector("table"));
 
 
 
-/*------------------- JS For Wayfinding --------------------*/
-// const activePage = window.location.pathname;
-// const newLinks = document.querySelector("nav a").forEach(link => {
-//    if(link.href.includes(`${activePage}`)) {
-//       link.classList.add("active");
-//    }
-// })
-
-document.querySelector(".nav-link").forEach(link => {
-   if(link.href === window.location.href) {
-      link.setAttribute("aria-current", "page")
+/*-------------- JS For Navigation Link Indicator(Wayfinding) --------------------*/
+const activePage = window.location.pathname;
+const navLinks = document.querySelectorAll("nav a").forEach(link => {
+   if(link.href.includes(`${activePage}`)) {
+      link.classList.add("active");
    }
 })
+
