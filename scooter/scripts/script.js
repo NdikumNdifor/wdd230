@@ -137,3 +137,27 @@ const navLinks = document.querySelectorAll("nav a").forEach(link => {
    }
 })
 
+
+/*-------------- JS For Including Form Submission Time ------------------*/
+
+// Creat a new date time object
+let myDate = new Date();
+
+// Get the current time in milliseconds
+let timestamp = Date.now();
+
+// Convert the time to a time string
+let time = timestamp * 1000;
+
+// Reference the timestamp input field with id "time t"
+// to a variable submt time
+const submitTime = document.getElementById("time");
+
+// Fill in the input field with the current time
+submitTime.value = time;
+
+// In few lines
+// document.getElementById("time").value = `${time}`;
+// console.log(submitTime)
+
+
