@@ -528,8 +528,7 @@ nav a:is(:link, :active, :visited).active {
 
 /*------------ Styling For Closebale banner --------------*/
 .banner {
-    background: linear-gradient(to right,#11998E 60%, #38EF7D);
-    
+    background: linear-gradient(to right,#11998E 60%, #38EF7D); 
 }
 
 .banner-content {
