@@ -22,6 +22,9 @@
     <!--Linking the favicon-->
     <link rel="icon" href="favicon.ico">
 
+    <!-- Close symbole from material icon to close the banner -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
     <!-- Linking the css files -->
     <link rel="stylesheet" href="../scooter/styles/normalize.css">
     <link rel="stylesheet" href="../scooter/styles/small.css">
@@ -55,6 +58,18 @@
         </ul>
     
     <main class="container">
+        <!-- A banner that displays on mondays, tuesdays and wednesdays -->
+        <div class="banner">
+            <div class="banner-content">
+                <div class="banner-text">
+                    
+                </div>
+                <button class="banner-close" type="button">
+                    <span class="material-symbols-outlined">close</span>
+                </button>
+            </div>
+        </div>
+        
         <div class="hero-section">
             <h1>Rent A Scooter To Know The Island Best In it's Entriety From Wild to Man made</h1>
             <div class="display">
@@ -107,6 +122,7 @@
                 <h3 id="date"></h3>
                 <img src="#" alt="" id="icon">
                 <p id="temperature"></p>
+                <p id="humidity"></p>
                 <p id="main"></p>
                 <p id="description"></p>
             </section>
@@ -115,6 +131,7 @@
                 <h3 id="date1"></h3>
                 <img src="#" alt="" id="icon1">
                 <p id="temperature1"></p>
+                <p id="humidity1"></p>
                 <p id="main1"></p>
                 <p id="description1"></p>
             </section>
@@ -134,8 +151,7 @@
         </div>
 
         <div class="attribution">
-            <h4>Attribution</h4>
-            <a href="https://www.flaticon.com/free-icons/website" title="website icons">Website icons created by Uniconlabs - Flaticon</a>
+           <h4> <a href="https://ndikumndifor.github.io/wdd230/scooter/attributions.html" >Attributions</a></h4>
         </div>
 
         <p>&copy;2023 Scooter Rental Website | Ndikum Sabastine Ndifor | <span id="lastlyModified"></span></p>

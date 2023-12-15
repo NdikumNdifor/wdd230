@@ -18,12 +18,16 @@ const currentIcon = document.querySelector("#icon");
 const CurrentTemp = document.querySelector("#temperature");
 const currentMain = document.querySelector("#main")
 const CurrentDesc = document.querySelector("#description")
+const currentHumidity = document.querySelector("#humidity")
 
 const forecastDate = document.querySelector("#date1");
 const forecastIcon = document.querySelector("#icon1");
 const forecastTemp = document.querySelector("#temperature1");
 const forecastMain = document.querySelector("#main1");
 const forecastDesc = document.querySelector("#description1");
+const forecastHumidity = document.querySelector("#humidity1")
+
+const maxTemp = document.querySelector(".banner-text");
 
 // An async function that uses fetch api method to retrieve data
 // and parses it to a json format 
@@ -34,6 +38,7 @@ async function apiFetch() {
       if (response.ok) {
          displayCurrentResults(data);
          displayForecastResults(data);
+         displayBanner(data)
       }else {
          throw Error(await response.text());
       }
@@ -61,6 +66,8 @@ function displayCurrentResults(data) {
 
    let desc = data.current.weather[0].description;
    description.textContent = `Details: ${desc}`;
+
+   currentHumidity.innerHTML = `Humidity: ${data.current.humidity}`
 }
 
 // A function that returns a 1 day weather forecast
@@ -80,6 +87,11 @@ function displayForecastResults(data) {
       forecastTemp.innerHTML = `Temperature: ${data.daily[i].temp.day}&deg;C`;
       forecastMain.innerHTML = `Condition: ${data.daily[i].weather[0].main}`; 
       forecastDesc.innerHTML = `Details: ${data.daily[i].weather[0].description}`;
+
+      forecastHumidity.innerHTML = `Humidity: ${data.daily[i].humidity}`
+
+      // Displaying the max temperature of the day
+      maxTemp.innerHTML = `The maximum temperature of the day will be: ${data.daily[i].temp.max}&deg;C`;
 
    }
 }
@@ -161,3 +173,14 @@ submitTime.value = time;
 // console.log(submitTime)
 
 
+/*------------ JS To Display The Max Temperature -----------------*/
+
+const displayDay = document.querySelector(".banner");
+const close = document.querySelector(".banner-close");
+
+function displayBanner() {
+    close.addEventListener("click", function() {
+        this.closest(".banner").style.display = "none";
+    })
+}
+displayBanner();
