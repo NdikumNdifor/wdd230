@@ -560,6 +560,11 @@ nav a:is(:link, :active, :visited).active {
 
 .container-attributions {
     height: 500px;
+    
+}
+
+.container-attributions > a {
+    display: block;
 }
 
 
