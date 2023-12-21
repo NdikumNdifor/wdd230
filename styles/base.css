@@ -10,9 +10,13 @@ body {
 }
 
 main {
+    max-width: 100%;
     display: grid;
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
+}
 
+section, .google-map {
+    margin: 0 1rem;
 }
 
 header {
@@ -62,6 +66,7 @@ nav ul li a:hover {
 main h2 {
     text-align: center;
     padding: 1rem 0;
+    margin: 0 1rem;
     border-bottom: 2px solid gray;
     font-family: Oswald, sans-serif;
 }
