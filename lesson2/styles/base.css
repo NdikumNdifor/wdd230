@@ -24,6 +24,7 @@ img {
 
 main {
     display: grid;
+    padding: 1rem;
 }
 
 header h2 {
